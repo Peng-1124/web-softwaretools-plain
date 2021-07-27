@@ -16,6 +16,9 @@ Before each meeting, Peng Gao is going to create a branch name release.  In the 
 
 Every members of the team can do their development on release branch. Every time when we complete our development we will do a commit.
 
+## Final
+merge develop branch into main
+
 
 
 
