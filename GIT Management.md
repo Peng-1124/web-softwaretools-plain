@@ -12,7 +12,7 @@ Group members are going to work on develop branch. Not the main branch.
 
 Before each meeting, Peng Gao is going to create a branch name release.  In the next few days, team members will push the recording of the meeting, as well as the code and documents to be developed, to the release branch. Peng Gao will merge release branch to the development branch before the next meeting. To facilitate the development and operation of the management team.
 
-## commit
+## Commit
 
 Every members of the team can do their development on release branch. Every time when we complete our development we will do a commit.
 
