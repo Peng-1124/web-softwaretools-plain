@@ -4,13 +4,13 @@ Peng Gao is responsible for managing all branches in Git warehouse. Git warehous
 
 ## Pull code
 
-Group members are going to work on develop branch. Not the main branch.
+Group members are going to work on develop branch and release branch. Not the main branch.
 
 
 
 ## Merge into develop and team management
 
-Before each meeting, Peng Gao is going to create a branch name release.  In the next few days, team members will push the recording of the meeting, as well as the code and documents to be developed, to the release branch. Peng Gao will merge release branch to the development branch before the next meeting. To facilitate the development and operation of the management team.
+Before each meeting, Peng Gao is going to create a branch name release.  In the next few days, team members will push the recording of the meeting, as well as the code and documents to be developed, to the release branch them deal with the conflict. Peng Gao will merge release branch to the development branch before the next meeting. To facilitate the development and operation of the management team.
 
 ## Commit
 
