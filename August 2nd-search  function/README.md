@@ -1,7 +1,7 @@
 # Pet-Store
 
-安装
+install command
 `npm install`
 
-运行
+run command
 `npm run dev`
