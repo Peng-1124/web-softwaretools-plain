@@ -1,3 +1,4 @@
+ ![image]
 # git branch structure
 
 * This repo consists of 4 branches: main, develop, data, pm
