@@ -46,7 +46,7 @@ Summary: In order to implement our project well and we have compared the above t
 ##### a. Teams
 
 Teams meeting. Sometimes, we need to share our screen to discuss the design of our code format and UI design. In teams meeting, we can communicate with each other about the idea of think and upload files such as docx file, UI prototype and UI design. And we choose desk17 in grp-MSc Software Engineering to have our meetings. Therefore, we choose teams to hold our sprint review meeting.
-！[image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/teamsmanagement.gif)
+<img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/teamsmanagement.gif" />
 
 ##### b. Wechat meeting
 
