@@ -1,6 +1,6 @@
-#content
+# content
 - [Group Working](#Group-Working) 
-
+ -[XP(ExtremeProgramming) or Scrum](#XP(ExtremeProgramming)-or-Scrum)
 
 # Group Working
 
@@ -45,14 +45,14 @@ Fourth, high priority demand driven. In scrum, we use the product backlog to man
 
 Summary: In order to implement our project well and we have compared the above two schemes. Moreover, and we have list the advantages and disadvantages of two schemes. We decided to work on Scrum. The reason is as below, the development module in Scrum can make us divide our develop task into many sprints, we can assign development work into each sprint. Then every sprint needs a user story to drive so that we can communicate with users all the time to obtain user needs. Moreover, Multiple iterations of the product can enable us to meet the needs of users all the time. Finally, the most important thing is that we need to accommodate to the rapidly changing requirements and we can develop our own code instead of pair programming which is EX needs.
 
-### Tools used in Group work
+## Tools used in Group work
 
-#### a. Teams
+### a. Teams
 
 Teams meeting. Sometimes, we need to share our screen to discuss the design of our code format and UI design. In teams meeting, we can communicate with each other about the idea of think and upload files such as docx file, UI prototype and UI design. And we choose desk17 in grp-MSc Software Engineering to have our meetings. Therefore, we choose teams to hold our sprint review meeting.
 <img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/teamsmanagement.gif" />
 
-#### b. Wechat meeting
+### b. Wechat meeting
 
 If we have to just communicate our moment's thought. As you know, we could bring up an idea in a flash, even when we are eating. So that we can share our idea with others immediately. The most important reason is that Wechat is the most popular smartphone messaging app in China and four of us has the same mother tongue. We do three main task by wechat.
 
@@ -62,7 +62,7 @@ b. Daily Scrum Meeting
 
 c. Task brief
 
-#### c. Miro 
+### c. Miro 
 
 A graphical interface machine rich software which can make us exchange your ideas freely on it. Moreover, we can add our own idea about features and design on it. We can also see other people's idea. At the design stage of our programming, it helps us a lot. We have discussed about the framework of front-end and draw a overall architecture diagram on it. In general, this is a stage for our team to brainstorm. All four team members can post their views on the whole project. Because the team members are in different regions, we usually have the problem of time difference. This software solves this problem well, because if any team member puts forward his own ideas on it, other members can see it during their working hours.
 
@@ -70,7 +70,7 @@ A graphical interface machine rich software which can make us exchange your idea
 
 
 
-#### d. Monday
+### d. Monday
 
 Founded in Tel Aviv, Israel in 2012, monday.com is a tool integrating communication, planning and management of the whole team. It has the functions of creating and assigning tasks, planning workload, commenting, notifying team members, sharing files, and visualizing the current work of members. 
 
