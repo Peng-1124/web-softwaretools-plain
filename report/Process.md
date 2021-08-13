@@ -62,7 +62,7 @@ c. Task brief
 
 A graphical interface machine rich software which can make us exchange your ideas freely on it. Moreover, we can add our own idea about features and design on it. We can also see other people's idea. At the design stage of our programming, it helps us a lot. We have discussed about the framework of front-end and draw a overall architecture diagram on it. In general, this is a stage for our team to brainstorm. All four team members can post their views on the whole project. Because the team members are in different regions, we usually have the problem of time difference. This software solves this problem well, because if any team member puts forward his own ideas on it, other members can see it during their working hours.
 
-![MiroDisplay](D:\Figure\MiroDisplay.gif)
+<img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/MiroDisplay.gif">
 
 
 
