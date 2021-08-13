@@ -1,6 +1,6 @@
 # content
 - [Group Working](#Group-Working) 
- -[XP(ExtremeProgramming) or Scrum](#XP(ExtremeProgramming)-or-Scrum)
+  -[XP(ExtremeProgramming) or Scrum](#XP(ExtremeProgramming)-or-Scrum)
 
 # Group Working
 
