@@ -134,7 +134,7 @@ Who is responsible (R = responsible), that is, the role responsible for performi
 
 ·Who is notified (I = informed), i.e. the person who has the privilege and should be notified of the results in time, but does not have to consult and solicit opinions from him / her.
 
-![image-20210808222509815](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210808222509815.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/RACI.png)
 
 
 
@@ -148,15 +148,15 @@ Who is responsible (R = responsible), that is, the role responsible for performi
 
 The administrator has all the privileges that the user has, and he has three other privileges compared to the user. The graph below has shown that.
 
-![image-20210810152418891](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810152418891.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/userstoryview1.png)
 
 #### The structure of our website
 
-![image-20210810155437861](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810155437861.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/functionoverview.png)
 
 #### sprint brief
 
-![image-20210809003415453](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210809003415453.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/sprint3.png)
 
 The development of the project is divided into three sprints, each sprint has their user stories which drive the development. Each sprint last almost week.  During each sprint, we strictly follow all scrum development rules. We will have user stories, that is, user needs to drive our development. We divided each story into several tasks. We asked the team members to complete a task within 8 hours, and each task should not exceed one working day. In each sprint, we will make a sprint backlog. Before the start of each sprint, the team leader will formulate a spring plan meeting. The sprint plan meeting is for everyone to sit down and introduce the ordered product backlog to everyone, and then everyone will think and decide how to promote the plan and sort out the sprint backlog to complete the follow-up work. Estimate and arrange the workload in the sprint planning meeting, determine the demand, submit it to R & D, and enter the story kanban(Monday.com). We use Monday to manage our story Kanban(Monday.com) every time. During each sprint, we will hold a daily stand through wechat. At the daily station meeting, everyone must report what they completed yesterday, what they plan to complete today, and whether they have difficulties and need the assistance of team members. At the end of each day's meeting, team members need to go to Monday to update their personal Kanban(Monday.com) today.
 
