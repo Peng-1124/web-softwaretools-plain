@@ -1,13 +1,13 @@
 # content
 - [Group Working](#Group-Working) 
   - [XP(ExtremeProgramming) or Scrum](#XP(ExtremeProgramming)-or-Scrum)
-   - [Extreme Programming](#Extreme-Programming)
-   - [Scrum](Scrum)
+    - [Extreme Programming](#Extreme-Programming)
+    - [Scrum](Scrum)
   - [Tools used in Group work](#Tools-used-in-Group-work)
-   - [a. Teams](#a.-Teams)
-   - [b. Wechat meeting](#b.-Wechat-meeting)
-   - [c. Miro ](#c.-Miro )
-   - [d. Monday](#d.-Monday)
+    - [a. Teams](#a.-Teams)
+    - [b. Wechat meeting](#b. Wechat-meeting)
+    - [c. Miro ](#c. Miro )
+    - [d. Monday](#d. Monday)
    
 
 # Group Working
