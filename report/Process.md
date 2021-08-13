@@ -170,7 +170,7 @@ The graph has shown how we use use stories to drive each feature on our website.
 
 We planed to have three sprint. The first sprint last five days. The second lasts seven days. And the third lasts 6 days. Each sprint has clear use stories and have been divided into several tasks. 
 
-![image-20210809163254311](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210809163254311.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/timeline.png)
 
 
 
@@ -338,17 +338,17 @@ In our opinion, there are two highlights and key points of our project. The firs
 
 
 
-![image-20210810162644029](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810162644029.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/highlight1.png)
 
 Then another highlight also occurs in sprint2, in this sprint. We deal with the administrator and user permissions according to the needs of users. It gives two users different rights. Weibang first discovered this problem in this sprint and told the development team. We set up the administrator user through a flag, and gave the administrator user the function of operating pets. This seems to us to be a great success.
 
 If you are a administrator,the interface is as below. Administrator has more functions to use than other uses(Notes: Marked in red circle)
 
-![image-20210810163321475](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810163321475.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/highlight2.png)
 
 If you are a users who wants to bu pets through our website, the interface is as below:
 
-![image-20210810163541005](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810163541005.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/highlight3.png)
 
 # Continuous Integration
 
@@ -368,15 +368,15 @@ pm branch: The UI prototype design, design drawings of each interface, logo desi
 
 test branch: After each development finished, the new feature will be test here. And we also compile some test case here.
 
-![image-20210810211929158](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810211929158.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/git1.png)
 
 In order to avoid conflicts, we can emphasize the following at the first organizational meeting. Each team member has not only his own branch, but also his own folder. If team member a wants to submit documents in the folder in charge of B, it needs the consent of B. In this way, although the team members are doing their own work in different branches, they will not touch other people's folders without permission. In this way, we can effectively avoid conflict. At the end of each sprint, Peng will summarize everyone's work and merge other branches into the main branch.
 
-![image-20210810213957629](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810213957629.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/git2.png)
 
 In this case, each team member has its own branch and folder. Each update can be submitted for modification in its own folder on its own branch. In this way, we can effectively avoid conflict. In addition, in order to make the merging of GIT branches clearer, we also use Sourcetree, a portable git management software. This visualization software can more intuitively display the merge and commit information between our branches.
 
-![git管理](D:\Figure\git管理.gif)
+<img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/gitsee.gif">
 
 ### Code sharing and parallel development
 
