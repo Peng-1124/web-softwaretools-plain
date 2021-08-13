@@ -1,8 +1,8 @@
 # content
 - [Group Working](#Group-Working) 
-  - [XP(ExtremeProgramming) or Scrum](#XP(ExtremeProgramming)-or-Scrum)
-    - [Extreme Programming](#Extreme-Programming)
-    - [Scrum](Scrum)
+  - [XP(ExtremeProgramming) or Scrum](##XP(ExtremeProgramming)-or-Scrum)
+    - [Extreme Programming](###Extreme-Programming)
+    - [Scrum](###Scrum)
   - [Tools used in Group work](#Tools-used-in-Group-work)
     - [a. Teams](#a.Teams)
     - [b. Wechat meeting](#b. Wechat-meeting)
