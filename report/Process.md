@@ -89,7 +89,7 @@ We also use the "Maintable" function to visualize our work status. It can intuit
 
 And the personal time line:
 
-![kanban3](D:\Figure\kanban3.gif)
+<img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/kanban3.gif">
 
 
 
