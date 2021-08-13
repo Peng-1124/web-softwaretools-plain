@@ -77,16 +77,15 @@ For each function development, designers and developers need to estimate their c
 Generally speaking, in addition to project requirements, the iteration requirements list also displays status, such as "before iteration", "under review", "project blocked", etc. These cards are posted on the Kanban wall to "visualize" the progress of all functional development.
 
 So we follow the kanban process by this tool. We divided our project into three main items, "working" item, "done" item and "stack" item.
-
-![kanban1](D:\Figure\kanban1.gif)
+<img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/kanban1.gif">
 
 During each sprint, we still have our sprint backlog to quantify the tasks in each sprint.
 
-![image-20210808153143694](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210808153143694.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/kanban.png)
 
 We also use the "Maintable" function to visualize our work status. It can intuitively reflect everyone's daily work tasks and work status, as well as whether the tasks have been completed and so on.
 
-![kanban2](D:\Figure\kanban2.gif)
+<img src="https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/process/kanban2.gif">
 
 And the personal time line:
 
