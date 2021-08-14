@@ -151,6 +151,65 @@ The following are our team's philosophy and principles in product design. [1] Ou
 * Understand the differences between various aspects of pc and web-based products, with a focus on cross-platform experience.
 * Use the right tools or software to avoid all kinds of usability problems at the end of the line and to prevent product details from being under-represented or overlooked.
 
+### Logo, slogan and name design
+
+A good logo and name are important to showcase the qualities of the product and to attract the attention of the user, and the logo should reflect the theme of our product and the qualities of our team. This reflects our design philosophy of using multimedia elements to influence the user and to evoke emotions.
+
+Here is our logo, where we have designed the logo together with the name of the site in the same image: 
+
+![logo](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/logo.png)
+
+As you can see from the image above, our website is called 'Aishang', which does not appear to be an English word, which is a little confusing, but in fact the 'word' means 'fall in love' in Chinese, and is written in Hanyu Pinyin. 
+
+Our slogan is "love and peace", which corresponds to the name of the website we designed, and can be seen as an expression of the value our team believes pets bring to people's lives.
+
+As our theme is "love and peace", the main colour of the logo is bright red, which represents passion and warmth, and the main body of the logo is a red heart with a silhouette of a dog inside, which reflects the actual function of our website -- pet showcase. 
+
+### Analysis of existing products
+
+We started with an analysis of the main pet buying routes in the UK and China. Studying how they function provides experience and establishes direction for our development.
+
+* **[Pets4homes](https://www.pets4homes.co.uk/)** 
+
+  pets4homes is the UK's most popular pet classifieds site.
+  Users can search thousands of dogs, puppies, cats, kittens and other pets for sale and adoption, as well as post free pet ads for pet sellers.
+
+  ![pet4home-page](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/pet4home1.png)
+
+  ![pets4home-struct](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/pet4home2.png)
+
+  * The whole page of pets4home has a yellow theme and the logo is a cartoonish dog and cat head.
+  * Topbar is relatively clean, has a switch to turn on sidebar, logo and name, account management
+  * The top of the sidebar is a logo and the bottom is a list of categories of various products to guide the user quickly to what they need.
+  * Below the topbar is a diagram of a puppy that is close to half the screen, with a search card to the left of the middle of the diagram, which allows user to search for the content them need by pet type, pet breed and location.
+  * The other main part of the page is a list of pet's showing cards for various topics.
+  * At the bottom are tools for pet ownership and some branded navigation boards.
+  * The overall page is left blank on both sides in about a third of the visual area, giving the whole page a fresher look.
+**[freeads](https://www.freeads.co.uk)**   
+
+Founded in 2010, freeads is a UK classifieds and community website designed to connect buyers and sellers of second-hand furniture, household goods, gardening supplies, pets, cars, jobs and property. This site is used in over 50 UK cities.
+
+![freeads-page](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/freeads1.png)
+
+![freeads](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/freeads.png)
+
+* The main design framework of freeads is similar to that of pets4home, with a topbar and sidebar, and the sidebar is hidden by default.
+* The functions on topbar are sidebar switch, logo, login and registration, posting ads.
+* The topbar has a special design, with a second level with a search function, and a navigator for different types of products.
+* Then is the usual list of displays by different topics
+
+[**Taobao**](https://world.taobao.com)
+
+Taobao is the largest volume and most downloaded e-commerce software in China, and many Chinese people use Taobao when buying eligible pets online.
+
+![taobao-page](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/taobao-page.png)
+
+![taobao-structure](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/taobao-structure.png)
+
+* Taobao's design logic is clearly different from the two platforms above, mainly in the design logic of navigator.
+* In the above two sites, sidebar is essentially a logical extension of topbar, what taobao has done is to weaken the navigation function of sidebar and focus more on the product classification function of sidebar, confining it to a single module.
+* Taobao's account features are more elaborate than the other two sites.
+* In terms of list design, taobao is similar to the other two pages in that it shows products by different topics
 # Design Choices
 
 # Evaluation 
