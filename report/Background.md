@@ -1,12 +1,12 @@
 # content
 - [Abstract](#Background) 
-  - [Motivation for the project, framing of the problem and a high-level overview of the system.](Motivation-for-the-project, framing-of-the-problem-and-a-high-level-overview-of-the-system.)
+  - [Motivation for the project and framing of the problem and a high-level overview of the system.](Motivation-for-the-project-and-framing-of-the-problem-and-a-high-level-overview-of-the-system.)
   
 # Background
 
 # Abstract
 
-## Motivation for the project, framing of the problem and a high-level overview of the system.
+## Motivation for the project and framing of the problem and a high-level overview of the system.
 
 With the continuous development of society, people's living standards are improving and keeping pets has also become a hot topic. More and more people begin to keep pets. Although pets may have hair loss and health problems in, keeping pets can directly improve the happiness of families through long-term consideration. Besides, as the saying goes, pets are man's best partners.  At the same time, the proportion of online shopping consumption in people's life is also increasing. The proportion of online shopping is increasing year by year compared with offline shopping.  The pet industry especially online pet business is a 100 billion market with a growth rate of 27%. From 1999 to 2009 alone, it increased by nearly 500% in the past 10 years[1].  Finally, the motivation of this project is to help a person who are trying to set up his won pet selling website to sell pets. What we need to analyze, design and develop a whole pet selling website to help him sell well as well as promote the development of pet online selling.
 
