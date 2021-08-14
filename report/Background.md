@@ -99,7 +99,7 @@ The overall picture description is shown below.
 ## Sequence diagram and introduction 
 
 The information exchange is as below. This figure shows how the information exchange in our project.
-![image]（https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/informationExchange.png）
+![image]）(https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/informationExchange.png)
 
 
 # Full description of all features
