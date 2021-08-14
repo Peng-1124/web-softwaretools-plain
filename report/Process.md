@@ -245,6 +245,8 @@ During this sprint, we hold a meeting at beginning to discuss our main user stor
 
 And the most important thing is that our team members and users have found that every time we get PET data, there will be a lot of duplicate data. After discussion, we feel that we need to process every request to get data. Do an array de duplication for the data. Through ID filtering, the ID of each pet is consistent.
 
+If you want view the record of the first sprint review meeting and the user feedback after the first sprint. You can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint1)
+
 ### The second sprint
 
 We begin our second sprint at August 3rd. This sprint will last almost seven days. In this sprint, our plan and activity are as below
