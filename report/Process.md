@@ -4,7 +4,16 @@
   - [Tools used in Group work](#Tools-used-in-Group-work)
 - [Team Roles](#Team-Roles)
   - [Analyze contributions using tables](#Analyze-contributions-using-tables)
-   
+  - [RACI](#RACI)
+- [Sprints](#Sprints)
+  - [High level overview](#High-level-overview)
+  - [Time line](#Time-line)
+  - [Detail of sprint ](#Detail-of-sprint)
+  - [Highlights & Critical Points](#Highlights-&-Critical-Points)
+- [Continuous Integration](#Continuous-Integration) 
+  - [Use of git and how GitHub supported us in streamlining our workflows throughout the project](#Use-of-git-and-how-GitHub-supported-us-in-streamlining-our-workflows-throughout-the-project)
+  - [Code sharing and parallel development](#Code-sharing-and-parallel-development)
+  - [How we do test driven development and how we do continuous integration](How-we-do-test-driven-development-and-how-we-do-continuous-integration)
 
 # Group Working
 
