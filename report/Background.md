@@ -12,7 +12,7 @@ Our problem is that we need to help
 
 In a word, the goal of this project is going to help a pet store owner to design and develop his own pet website. At first, we need to analysis the user requirement and define the target users through different ways. Moreover, we will design and develop the new feature as well as the popular oriented front end of this website to make this website more friendly to users in order to increase the sales volume of website owner. Finally, the whole group will test the framework of website towards different ways and then do the HCI evaluation. 
 
-To achieve the goal of our project, based on the provided code, we intend to use Vue and element UI framework to write our front-end components. And use the Axios request library and swagger.io request API to request and deal data. We realize our functions by sending data, requesting data and processing data. So as to make a fully functional pet sales website. 
+To achieve the goal of our project, based on the provided code, we intend to use Vue and element UI framework to write our front-end components. And use the Axios request library and swagger.io request API to request and deal data. We realize our functions by sending data, requesting data and processing data. So as to make a fully functional pet sales website. In addition, our program running environment is Node.
 
 Towards this website, pet lovers can search, view, buy, check the pets they wants to buy. Moreover, the owner of this website can update his commodity information in order to let his goods sells well.
 
