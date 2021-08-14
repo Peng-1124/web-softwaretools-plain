@@ -42,7 +42,6 @@ Based on the above analysis, our high-level goal of this project is to create an
 2.	It needs to realize the core function of a pet shopping website. This can be further divided into the following objectives.
    The user can search for pets.
    The user can view the pet's information.
-   The user can purchase pets.
    The user can check the information of the pet he or she wants to buy.
    These contents constitute the core functions of the website and should be implemented first.
 3.	In order to further make the website easy for users to use, it should have some extended functions. These functions can be roughly described as follows.
@@ -66,7 +65,7 @@ Although it seems to have nothing to do with ordinary users, facilitating busine
 
 After discussing the contribution to our high-level goals, in this report we will show how we achieved these goals. 
 
-![image-20210814194636900](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210814194636900.png)
+
 
 # System design
 
@@ -76,25 +75,24 @@ The description of the site structure is as follows.
 
 The website will first enter a login interface. Here, users or administrators can choose to log in with their username. You can also register new users. Logging in with any kind of identity will later enter the main interface of the website.
 
-![image-20210814194514466](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210814194514466.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/flow1.png)
 
 The main interface implements the main functions of the website, and users can log out.
 
 If you choose to log in as a normal user, the user can see all the pets listed in the form of a card here, and can search for pets by a variety of keywords. Keyword can be name, tag or id. The website also supports fuzzy search, and you can find the relevant content only by entering the part of the keyword. Users can also sort the listed pets. Users can click the button to buy pets.
 
-![Search-Module](/pics\Search-Module.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/searchflow.png)
 
 If you choose to log in as an administrator, the administrator can not only see the content seen by ordinary users (that is, search for pets on this page), but also delete pets or add tags to pets through the buttons on the card. Administrators cannot click the button to purchase pets. The purchase button is replaced by the button to add pets. Through this button, the administrator can enter the page for adding pets.
 
-![Pet-Manage-Module](/pics\Pet-Manage-Module.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/deleteoraddtag.png)
 
 In the page for adding pets, the administrator can add pictures from the file, enter the name and add tags for the pets they want to add. Click the OK button to complete the addition, and click the Back button to return to the main page. After refreshing, you can see the added pets.
 
-![Pet-Adding-Module](/pics\Pet-Adding-Module.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/Pet-Adding-Module.png)
 
 The overall picture description is shown below.
-
-![Overall-Process](/pics\Overall-Process.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/Overall-Process.png)
 
 
 
