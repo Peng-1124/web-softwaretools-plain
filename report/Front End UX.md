@@ -6,6 +6,7 @@ This product is a website for showing pet, then it needs a good looking display 
 There are several advantages to using a button to implement some functionality rather than a text box. Firstly, as a 'component', a button is more integral and secondly, a button is more visible than a text box, making it easier to attract the user's attention.
 
 Moreover, it is good to leave a good area of blank space on either side of the display listing so as to reduce the user's visual fatigue.
+
 ### Paper prototype
 
 * Showing list (Main page)
@@ -43,6 +44,13 @@ Moreover, it is good to leave a good area of blank space on either side of the d
   * Need some pet's tags.
   * Need to show petID and petName.
 ### UX design options
+* Don't show drop-down menus on the page, and some modules that are hidden by default, but show them by clicking a button or mousing over an area.
+* Pet's showing cards will enlarge on mouseover to attract the user's attention.
+* The list displays a GIF while loading and lowers the brightness of the screen to indicate that the user is loading.
+* A pop-up prompt is required when the list is loaded.
+* A second confirmation of the user is required when doing add and delete operations, by means of a pop-up warning.
+
+
 # Documentation of final front end design
 
 ### Prototype of the first version
@@ -90,7 +98,58 @@ As can be seen here, the functions we have added, based on the list of functions
 * A pop-up prompt is required when the list is loaded.
 * A second confirmation of the user is required when doing add and delete operations, by means of a pop-up warning.
 
-# Final UX
+### Iteration of the prototype
+
+Click **[here](https://ddvr37.axshare.com)** for a preview of the second version of the prototype.
+
+Based on a summary of the results of the user interviews and questionnaires, and the results of the volunteers trying out the first version of the prototype, changes were made to the prototype and simple interactions were added, and the prototype supports page jumps.
+
+The following is a screenshot of the preview after the iteration:
+
+![rp2-start](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/rp2-start.png)
+![rp2-list](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/rp2-list.png)
+![rp2-add](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/rp2-add.png)
+![rp2-store](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/rp2-store.png)
+![rp2-info](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/rp2-info.png)
+
+In the new prototype version, we have added the **reset list** feature that was rejected in the earlier design of the site, as we considered that once the user had updated the current list using the search function or the tag filter, the only way to go back to the original pet list was to reopen the site, so adding the reset feature and putting it as a button in the top navigation It would be a good feature to include reset as a button in the top navigation bar and to provide an icon that clearly represents its function.
+
+The new prototype shows more details of the UI/UX design:
+
+* The original pet's showing card for the pet's showing list used the first design in the paper prototype, but now, after discussion within the team, it has been decided to change to the second design.
+* When the mouse is moved over a card in the pet’s showing list, the card will expand to its original size to alert the user; When the mouse is moved out of the area, the card reverts to its original size.
+* The new prototype shows the logic for jumping between pages, with buttons that are clickable.
+
+No other functional changes have been made in this iteration (except reset page button), but more on the UI layout:
+
+* The side navigation bar has been removed and the functions of the side navigation bar have been moved to the top navigation bar as buttons.
+* Adjusted the double-sided design of the top navigation bar to a single level.
+* The tag filtering and sorting functions that were in the top navigation bar have been moved to the top of the pet's showing list.
+* The user function in the side navigation bar has been moved to the user management pop-up menu.
+
+# Reasoned list of design choices
+### Design process
+
+Deciding together on the product experience for users through a team meeting first, to gather team consensus and decide on the main features of the product at a higher level to avoid too many later iterative changes, which saves communication costs within the team. Using methods such as questionnaires and user interviews, user requirements are collected, then translated them into product requirements and implemented quickly using paper prototypes.
+
+Once the product prototype were basically determined, wireframe prototypes were created using prototyping software, and then discussed within the group and set a new range of questionnaires and analyse the data. Finally, the newly collected data was used to iterate on the product, including the design of the interface, the product copy, and the rationalisation of the layout.
+
+### Philosophy and principles of our design
+
+The following are our team's philosophy and principles in product design. [1] Our team's approach to the entire product design process is based on the following principles.
+
+* A website should be designed first and foremost with the user in mind, and when it comes to making decisions about product design, we need to learn to use empathy rather than relying solely on individual ideas and the opinions within the group. Good UX design is tailor-made for the user, whose opinions, wishes, preferences and needs are crucial to the product, so a lot of time and effort is invested in understanding the user during the initial stages of the project and during the iterative phase of the project. In this project, the programme for understanding the users was a questionnaire as well as user interviews.
+* Products need to have a clear structured view of the product information and functionality. In a product, for example, if all the content was piled into one list or page, we would probably not be able to use the product, so we see that most apps and websites contain a lot of navigation and page structure to organise content in an orderly way according to its importance. The ultimate goal of the information architecture is to help users understand what they are looking at and to help them find the content they need to find.
+* The consideration of scenarios for the use of a product is an important direction to think about. If there are no scenarios, then it is difficult for any design to be effective. So product design teams need to invest time at the start of a project to understand the problems faced by users and the context surrounding those problems. For example, when designing input boxes, input prompts are added to reduce the chance of user error.
+* Consistency is a key principle of UX design. Products with a consistent design are more quickly accepted by new users because they can recall their previous habits when using similar apps and use these habits as a guide when using the new product, which is why there are many similar or even identical elements in the design of pages for the same type of product. This principle reminds us of the need to refer heavily to established products that already exist in the market during the product design phase.
+* Giving the user the right amount of control is also an element of design that needs to be considered, giving the user 'customisable' functionality in the design of the product.
+* Less is more. There is an MVP principle in product design - minimum viable product - and in the conventional way of development, the process of research, design, development and marketing can be a long one, and it is difficult for anyone to guarantee success. But when you take a different approach, you use MVP to conduct small prototype research, develop it quickly, reach out to customers and get feedback. The cost of trial and error is greatly reduced by continually modifying the prototype through feedback and iterating on the development. [2] This also embodies the spirit of Scrum.
+* Good visual hierarchy helps guide users to achieve movement around the page and to understand the logical relationship between what they see and the rest of the content on the page. A tightly designed visual hierarchy and page layout design can go a long way to helping users digest the information they saw.
+* Tell a story in your design, use multimedia elements to try and 'talk' to the user, evoke emotions and leave a lasting impression.
+* Don't try to create high-fidelity prototypes from the outset in design. When the product is in its early versions, many features and layouts often require extensive changes, and spending a lot of time creating high-fidelity prototypes can be very detrimental to the team's development cycle.
+* Focus on managing product requirements, starting with gathering requirements, creating a pool of requirements and keeping the pool updated as the project progresses.
+* Understand the differences between various aspects of pc and web-based products, with a focus on cross-platform experience.
+* Use the right tools or software to avoid all kinds of usability problems at the end of the line and to prevent product details from being under-represented or overlooked.
 
 # Design Choices
 
