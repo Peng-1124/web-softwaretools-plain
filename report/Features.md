@@ -125,6 +125,8 @@ The above questionnaire may not cover all basic functions, because we have condu
 
 We interviewed nearly 13 people when obtaining user needs, most of whom are interested in buying pets online. This can help us get the needs of potential users of the website. A small number of people are product manager interns, so they can provide us with what functions we need as the owner of the website.
 
+According to user interview, we have seen that: the search function is also one of the most persistent functions of users. Because the current website is complex. The reason why many users choose online shopping is that online shopping is very convenient. Therefore, the powerful search function is a major reason to support the normal operation of e-commerce websites. For managers, they want more permission than users.
+
 
 
 ### Competitive and similar product analysis
@@ -186,7 +188,7 @@ Summary of competitive and similar website analysis: from the above analysis, it
 
 After all. We have summarized the results of user questionnaires and user interviews. According to user questionnaires, we have found that. For both buyers and sellers, they all want to have a feature that they can check the pets' status, create account, have their own account, place a order etc. But for sellers(the owner of this website), they'd love to have some permissions which users do not have. Such as uploading the photo of a pet, adding pets, deleting pets, add tags to a pet or delete tags of a pets and so on. According to user interview, this time, most of our users are interested in buying pets, and some are product managers (we want them to play the role of website owner because they are very professional in product design). For users, most of the functions they propose are about search. So about all,  we have summarized that, for users, they want to search by pets by ID, name or filter the pets by pets' tag, even fuzzy search. The results of Competitive and similar product analysis are the almost same as user interview and user quesitonnaire.
 
- The summary of possible features:
+ The summary of possible features(according to user interview, user questionnaire and analysis of similar product):
 
 For buyer:
 
@@ -207,6 +209,14 @@ d. do fuzzy search
 e. hope website can recommend the pets for buyers according to their preference
 
 f. users can sort the pets ascending or descending order.
+
+g. user Comments
+
+h. related Items(explain Seeing  phrases like "You might like this" may make people feel the urge to click on given links. This includes two parts of features, collecting user data and analyzing it. The website can collect user data through appropriate means[5], analyze it through machine learning technology, and infer other products that users may like and recommend these products to them. This is good for selling more products.)
+
+i. Frequently Asked Questions(FAQ). Some user questions may be very common. Instead of answering them for a single user every time, writing a FAQ section may be a better choice. This saves a lot of time for salespeople and helps them focus on the things that are more needed. 
+
+j. If the FAQ section does not solve the user’s question, they will still hope for the answer. If they can't get a response in time, their shopping enthusiasm may fade, or they may look for other businesses. This is undoubtedly very bad. This makes online customer service better than email. In order to realize this demand, we can add the live chat feature to our website.
 
 
 
@@ -378,7 +388,7 @@ After we have finished this feature of our website, in the first sprint review m
 
 *when do we decide to do? why we do this(with user input)?*
 
-
+According to our previous analysis, both from the results of the second questionnaire and from the results of user interviews. Users are persistent about the search function, so we think what users need most is the search function. Therefore, our search function is from simple to complex. This search function should be relatively simple in the search function. So we decided to implement this function in the second sprint.
 
 *User story*?
 
@@ -414,7 +424,7 @@ We do this development in the second sprint and after it we also hold the sprint
 
 *when do we decide to do*?*why we do this*?(with user input)
 
-
+According to our previous analysis, both from the results of the second questionnaire and from the results of user interviews. Users are persistent about the search function, so we think what users need most is the search function. Therefore, our search function is from simple to complex. This search function should be relatively simple in the search function. So we decided to implement this function in the second sprint.
 
 *User story*?
 
@@ -448,7 +458,7 @@ We have discussed whether this function is qualified in our second sprint review
 
 *when do we decide to do*?*why we do this*?
 
-
+From the competitive product analysis, you can see. Now all major websites have this function, fuzzy search. The greatest significance of this function is that sometimes users do not know the full name of a commodity, and the fuzzy search plays a great role. Fuzzy search will return all the items that match the user's input according to some of the product names entered by the user. Later, in the second questionnaire, we also found that users have high demand for this function, so we decided to make this function in the second sprint.
 
 *User story*?
 
@@ -486,7 +496,7 @@ we match the label with different value and users can choose one to use. In addi
 
 *when do we decide to do*?*why we do this*?
 
-
+This function enables us to analyze the functions of Taobao website and user interviews. Because now many websites have sorting functions, but most sorting functions realize sorting such as price. Because the goods on our website have no price attribute, we decided to do this function to imitate price ranking. Through this function, we can sort pets by ID. We did this in the second sprint.
 
 *User story*?
 
@@ -512,7 +522,7 @@ The team discussed this feature at the second sprint wrap up meeting. Some team 
 
 *when do we decide to do*? *why we do this*?
 
-
+This is the user demand we obtained through user interview and the first questionnaire analysis. Because at the beginning, the original intention of this project was to sell his pets for a businessman who wanted to sell his pets through the Internet. However, if the manager does not have permissions higher than the user, the website will no longer belong to the manager, it will belong to everyone. Therefore, we think it is very important to realize this function, and many product managers also think this function is indispensable in user interviews. So we decided to implement it in the second sprint
 
 *User story*?
 
@@ -554,7 +564,7 @@ When the user completes the registration, we will use API provided by teacher to
 
 *do we implement it well?*
 
-For this function, we have to say that we didn't have a clue to distinguish permissions at the beginning. Reminded by the team member Tang Weibang, we only used one bool variable to solve this problem. The core point to solve this problem is to distinguish between functions visible to administrators and functions visible to users. In the second sprint review meeting and the subsequent user survey, users also rated our functions highly.
+To be honest, our function is very successful for distinguishing permissions, because we use a flag to make some function buttons displayed on the manager side but not on the user side. Our function is designed for those who want to visit our website, so if users do not register, they can visit our website as tourists. Therefore, if you do not enter your account and password, you can also access our website through the client. The only thing we need to verify is whether your account name is "admin". If it is admin, we think it is administrator login, so you can log in to the administrator side. I believe that if we have a more stable API in the future, we can make more improvements in this function.
 
 
 
@@ -804,57 +814,25 @@ Server return reply
 It can be seen that the response is correct. You can also make another request for the pet with petid = 2222 to see whether the pet information is successfully updated.
 
 ```shell
-curl -X 'GET' \
-  'https://petstore.swagger.io/v2/pet/2222' \
-  -H 'accept: application/json'
+curl -X 'GET' \  'https://petstore.swagger.io/v2/pet/2222' \  -H 'accept: application/json'
 ```
 
 Server return reply
 
 ```shell
-{
-  "id": 2222,
-  "category": {
-    "id": 0,
-    "name": "string"
-  },
-  "name": "doggie2222",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "available"
-}
+{  "id": 2222,  "category": {    "id": 0,    "name": "string"  },  "name": "doggie2222",  "photoUrls": [    "string"  ],  "tags": [    {      "id": 0,      "name": "string"    }  ],  "status": "available"}
 ```
 
 It shows that the put method is indeed used to change the name of pet with Pet ID 2222 to 2222. This update method is used to add a new pet tag in practical application.
 
 ```javascript
- this.$axios.put(
-     '/pet',
-     newInfo,
-     { headers: { 'Content-Type': 'application/json' } }
- ).then((res) => {
-     console.log(res.data)
- }).catch(
-
- )
+ this.$axios.put(     '/pet',     newInfo,     { headers: { 'Content-Type': 'application/json' } } ).then((res) => {     console.log(res.data) }).catch( )
 ```
 
 Save the pet tag to be added into newinfo, and then use the put method to update the pet information.
 
 ```javascript
-this.addPetInfo.tags.push({    
-    id: this.addPetInfo.tags.length, 
-    name: this.inputTag
-})
-this.addNewTag(this.addPetInfo)
-this.addTagDialogVisible = false
+this.addPetInfo.tags.push({        id: this.addPetInfo.tags.length,     name: this.inputTag})this.addNewTag(this.addPetInfo)this.addTagDialogVisible = false
 ```
 
 Newinfo is this.addpetinfo. You can see that the tags of this.addpetinfo are added with a new ID and name. This is the newly added tag.
@@ -866,51 +844,13 @@ Newinfo is this.addpetinfo. You can see that the tags of this.addpetinfo are add
 send request
 
 ```bash
-curl -X 'POST' \
-  'https://petstore.swagger.io/v2/pet' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 2223,
-  "category": {
-    "id": 0,
-    "name": "string"
-  },
-  "name": "doggie",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "available"
-}'
+curl -X 'POST' \  'https://petstore.swagger.io/v2/pet' \  -H 'accept: application/json' \  -H 'Content-Type: application/json' \  -d '{  "id": 2223,  "category": {    "id": 0,    "name": "string"  },  "name": "doggie",  "photoUrls": [    "string"  ],  "tags": [    {      "id": 0,      "name": "string"    }  ],  "status": "available"}'
 ```
 
 Get the normal response from the server
 
 ```json
-{
-  "id": 2223,
-  "category": {
-    "id": 0,
-    "name": "string"
-  },
-  "name": "doggie",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "available"
-}
+{  "id": 2223,  "category": {    "id": 0,    "name": "string"  },  "name": "doggie",  "photoUrls": [    "string"  ],  "tags": [    {      "id": 0,      "name": "string"    }  ],  "status": "available"}
 ```
 
 After testing, this API is normal.
@@ -922,20 +862,13 @@ After testing, this API is normal.
 request test
 
 ```bash
-curl -X 'DELETE' \
-  'https://petstore.swagger.io/v2/pet/2223' \
-  -H 'accept: application/json' \
-  -H 'api_key: root'
+curl -X 'DELETE' \  'https://petstore.swagger.io/v2/pet/2223' \  -H 'accept: application/json' \  -H 'api_key: root'
 ```
 
 server return reply
 
 ```bash
-{
-  "code": 200,
-  "type": "unknown",
-  "message": "2223"
-}
+{  "code": 200,  "type": "unknown",  "message": "2223"}
 ```
 
 In particular, the delete method requires an API_ Key, I applied for an API called root on swagger_ Key. When using the delete method, you need to change the API_ Key is passed as a parameter to the URL.
@@ -947,30 +880,13 @@ In particular, the delete method requires an API_ Key, I applied for an API call
 Request test
 
 ```shell
-curl -X 'POST' \
-  'https://petstore.swagger.io/v2/user' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 0,
-  "username": "string",
-  "firstName": "string",
-  "lastName": "string",
-  "email": "string",
-  "password": "string",
-  "phone": "string",
-  "userStatus": 0
-}'
+curl -X 'POST' \  'https://petstore.swagger.io/v2/user' \  -H 'accept: application/json' \  -H 'Content-Type: application/json' \  -d '{  "id": 0,  "username": "string",  "firstName": "string",  "lastName": "string",  "email": "string",  "password": "string",  "phone": "string",  "userStatus": 0}'
 ```
 
 The server response code is 200, indicating that the creation is successful.
 
 ```shell
-{
-  "code": 200,
-  "type": "unknown",
-  "message": "9223372000000214797"
-}
+{  "code": 200,  "type": "unknown",  "message": "9223372000000214797"}
 ```
 
 ## h. registration test
@@ -980,19 +896,13 @@ The server response code is 200, indicating that the creation is successful.
 request test
 
 ```shell
-curl -X 'GET' \
-  'https://petstore.swagger.io/v2/user/login?username=string&password=string' \
-  -H 'accept: application/json'
+curl -X 'GET' \  'https://petstore.swagger.io/v2/user/login?username=string&password=string' \  -H 'accept: application/json'
 ```
 
 Server response results
 
 ```json
-{
-  "code": 200,
-  "type": "unknown",
-  "message": "logged in user session:1628753071173"
-}
+{  "code": 200,  "type": "unknown",  "message": "logged in user session:1628753071173"}
 ```
 
 The server replies with code 200, indicating successful login.
@@ -1018,57 +928,7 @@ Success criteria-99% of test cases passed
 Automated test cases, we have ran it. This test case is written before the function is completed. This is our core goal of test driven development. The automated test run git is here.
 
 ```javascript
-describe('Login page test', () => {
-    it('Login api test', async (done) => {
-
-        let username = 'admin'
-        let password = 'admin'
-
-        axios.get('https://petstore.swagger.io/v2/user/login?' +
-            'username=' + username + '&' +
-            'password=' + password,
-            { headers: { 'Content-Type': 'application/json' } }
-        ).then((res) => {
-            done()
-            expect(res.data.code).toEqual(200)
-        })
-    })
-
-    it('Register & delete user', async (done) => {
-        let formData = {
-            'id': Math.ceil((Math.random() * 10000000)).toString(),
-            'username': 'test-test',
-            'firstName': 'test-test',
-            'lastName': 'test-test',
-            'email': 'test-test@gmail.com',
-            'password': 'test-test',
-            'phone': 'test-test',
-            'userStatus': '0'
-        }
-
-        axios.post('https://petstore.swagger.io/v2/user',
-            formData,
-            { headers: { 'Content-Type': 'application/json' } }
-        ).then((res) => {
-            done()
-            expect(res.data.code === 200).toBeTruthy()
-
-        }).catch(
-            done()
-        )
-        
-        axios.delete(
-            'https://petstore.swagger.io/v2/user/' + formData.username,
-            { headers: { 'Content-Type': 'application/json' } }
-        ).then(
-            done()
-        ).catch(
-            done()
-        )
-
-    })
-})
-
+describe('Login page test', () => {    it('Login api test', async (done) => {        let username = 'admin'        let password = 'admin'        axios.get('https://petstore.swagger.io/v2/user/login?' +            'username=' + username + '&' +            'password=' + password,            { headers: { 'Content-Type': 'application/json' } }        ).then((res) => {            done()            expect(res.data.code).toEqual(200)        })    })    it('Register & delete user', async (done) => {        let formData = {            'id': Math.ceil((Math.random() * 10000000)).toString(),            'username': 'test-test',            'firstName': 'test-test',            'lastName': 'test-test',            'email': 'test-test@gmail.com',            'password': 'test-test',            'phone': 'test-test',            'userStatus': '0'        }        axios.post('https://petstore.swagger.io/v2/user',            formData,            { headers: { 'Content-Type': 'application/json' } }        ).then((res) => {            done()            expect(res.data.code === 200).toBeTruthy()        }).catch(            done()        )                axios.delete(            'https://petstore.swagger.io/v2/user/' + formData.username,            { headers: { 'Content-Type': 'application/json' } }        ).then(            done()        ).catch(            done()        )    })})
 ```
 
 login/registration test & permission division
@@ -1100,63 +960,78 @@ As we can see, no two pets have the same ID.
 As usual, we wrote test cases for automated development before deciding to open functions, which is also catering to the core concept of test driven development. The automated test cases are here:
 
 ```javascript
- it('Add & Delete pet test', async(done) => {
-        let id = Math.ceil((Math.random() * 10000000))
-        let addPetInfo = {
-            'id': id,
-            'category': {
-                'id': 0,
-                'name': 'string'
-            },
-            'name': 'test-unit-pet',
-            'photoUrls': [
-                'string'
-            ],
-            'tags': [
-                {
-                    'id': 0,
-                    'name': 'tag1'
-                }
-            ],
-            'status': 'available'
-        }
-
-        axios.post(
-            'https://petstore.swagger.io/v2/pet',
-            addPetInfo,
-            { headers: { 'Content-Type': 'application/json' } }
-        ).then(res => {
-                done()
-                // console.log(res.data)
-                expect(res.data.id).toEqual(id)
-            }
-        ).catch(res=>{
-
-        })
-
-        axios.delete('https://petstore.swagger.io/v2/pet/' + id, {
-            'Content-Type': 'application/json',
-            'api_key': 'root'
-        }).then(res=>{
-            done()
-            expect(res.data.code).toEqual(200)
-        }).catch(res=>{
-
-        })
-    })
-
-    it('',()=>{
-
-    })
+ it('Add & Delete pet test', async(done) => {        let id = Math.ceil((Math.random() * 10000000))        let addPetInfo = {            'id': id,            'category': {                'id': 0,                'name': 'string'            },            'name': 'test-unit-pet',            'photoUrls': [                'string'            ],            'tags': [                {                    'id': 0,                    'name': 'tag1'                }            ],            'status': 'available'        }        axios.post(            'https://petstore.swagger.io/v2/pet',            addPetInfo,            { headers: { 'Content-Type': 'application/json' } }        ).then(res => {                done()                // console.log(res.data)                expect(res.data.id).toEqual(id)            }        ).catch(res=>{        })        axios.delete('https://petstore.swagger.io/v2/pet/' + id, {            'Content-Type': 'application/json',            'api_key': 'root'        }).then(res=>{            done()            expect(res.data.code).toEqual(200)        }).catch(res=>{        })    })    it('',()=>{    })
 ```
 
 After automated test, the deleting and adding functions run well. 
 
-We also do manual test. The result runs well.
+We also do manual test. One thing to mention is that during manual testing. The performance of adding pets is not good. We analyze that this may be the delay in updating data in the database, so we often need to refresh our interface after adding pets. In this way, this function can operate normally.
+
+Of course, we also manually tested the delete pet function. This function performed quite well in our manual test. Successfully deleted pets and updated information. And after deletion, we don't have to refresh the interface manually.
 
 
+
+### add tags test
+
+For this function, we chose manual test. This function performs well in manual testing. And the added tag information was sent to the pet store in time. Because the process and steps of realizing this function are relatively simple. Therefore, after the discussion of the team members, there was no automatic test.
+
+![addtagtest](D:\Figure\addtagtest.gif)
+
+
+
+### search feature test
+
+When testing the search function, our idea is the same, and we also abide by test driven development. We wrote test cases before testing the search function. All our development is written for test cases that can be passed. Here are the test cases we wrote when testing the search function. This test case can only be used to test whether our search by name and search by ID functions are perfect. 
+
+```javascript
+it('Filter name & id Test', (done) => {        let petInfoList = []        axios.get(            'https://petstore.swagger.io/v2/pet/findByStatus?status=available'        ).then((res) => {            done()            petInfoList = res.data            expect(res.data.length).toBeGreaterThan(0)        }).catch(            done()        )        let filterTest = petInfoList.filter(each => each.id === 1234)        expect(filterTest.length <= petInfoList.length).toBeTruthy()        filterTest = petInfoList.filter(each => each.name === 'doggie')        expect(filterTest.length <= petInfoList.length).toBeTruthy()    })
+```
+
+However, this test case can not test our fuzzy search function, so we manually test the fuzzy search function, the last small branch of the search function.
+
+![searchfuzzy](D:\Figure\searchfuzzy.gif)
+
+After the fuzzy search test, because we said before, we set up a selection panel for us to choose. We need to manually test whether this function can help us successfully select three search modes. This is also an integration test of the three search modes. The result of the test is that the search function in the three modes can operate normally.
+
+![searchinter](D:\Figure\searchinter.gif)
+
+
+
+### filter tag feature test
+
+The function of filtering pets through tag. We also test the usability of our functions in two ways: test case test and manual test. Adhering to the principle of test driven development, we show that we have written test cases.
+
+```javascript
+it('Filter tag test',  (done) => {        let petInfoList = []        axios.get(            'https://petstore.swagger.io/v2/pet/findByStatus?status=available'        ).then((res) => {            done()            petInfoList = res.data            expect(res.data.length).toBeGreaterThan(0)        }).catch(            done()        )        let tempArray = []        for (let i = 0; i < petInfoList.length; i++) {            if (petInfoList[i].hasOwnProperty('tags')) {                if (petInfoList[i].tags.length >= 1) {                    for (let j = 0; j < petInfoList[i].tags.length; j++) {                        if (petInfoList[i].tags[j].name === 'string') {                            tempArray.push(petInfoList[i])                        }                    }                }            }        }        expect(tempArray.length <= petInfoList.length).toBeTruthy()    })
+```
+
+Our function passed the test case after development. And the function is very successful. Then we conducted a manual test, and the function performed very well in the manual test.
+
+![filtertag](D:\Figure\filtertag.gif)
+
+
+
+### order feature test
+
+At the beginning, when we considered this function, we once considered writing test cases for it, but later we found that. This function requires too many test cases, and the core of this function is the sort function in JavaScript. So we finally took a manual test of this function.
+
+This function may not be obvious in the test. Here we prompt that the result of successful test is that after we click the button, all pets will be arranged in ascending or descending order of pet ID.
+
+![orderaccordingID](D:\Figure\orderaccordingID.gif)
 
 ### automated test show
+
+There are some warning. However, our project passed all the test cases. 
+
+![testshow](D:\Figure\testshow.gif)
+
+After all the unit tests have been passed, we also do the integration test aiming to test the cohesion between functions memory cohesion between pages.
+
+In the integration test of the program, we mainly tested the cooperation between various functions, but we found that. Our functions are relatively independent and will not affect each other. We need to mention one point. It is the test of the reset button. This function plays an important role in our search function. So we manually tested and tested the usability of this button many times. When the network is comfortable, there are no technical problems with our reset button. In addition, we also tested the permissions of administrators and users during integration testing. The following figure illustrates the use of permissions between users and administrators.
+
+![image-20210813232956536](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813232956536.png)
+
+The administrator has all the rights that the user has, and there are three other rights: adding pets, deleting pets, and adding tags to pets. We have done this before.
 
 # References
 
@@ -1165,3 +1040,5 @@ We also do manual test. The result runs well.
 [3]Freeads, https://www.freeads.co.uk/
 
 [4]Taobao, https://world.taobao.com/.
+
+[5]https://www.tributemedia.com/blog/learn-how-visitors-navigate-your-website
