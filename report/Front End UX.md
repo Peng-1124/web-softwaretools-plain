@@ -185,7 +185,8 @@ We started with an analysis of the main pet buying routes in the UK and China. S
   * The other main part of the page is a list of pet's showing cards for various topics.
   * At the bottom are tools for pet ownership and some branded navigation boards.
   * The overall page is left blank on both sides in about a third of the visual area, giving the whole page a fresher look.
-**[freeads](https://www.freeads.co.uk)**   
+ 
+**[freeads](https://www.freeads.co.uk)**     
 
 Founded in 2010, freeads is a UK classifieds and community website designed to connect buyers and sellers of second-hand furniture, household goods, gardening supplies, pets, cars, jobs and property. This site is used in over 50 UK cities.
 
@@ -210,6 +211,105 @@ Taobao is the largest volume and most downloaded e-commerce software in China, a
 * In the above two sites, sidebar is essentially a logical extension of topbar, what taobao has done is to weaken the navigation function of sidebar and focus more on the product classification function of sidebar, confining it to a single module.
 * Taobao's account features are more elaborate than the other two sites.
 * In terms of list design, taobao is similar to the other two pages in that it shows products by different topics
-# Design Choices
 
-# Evaluation 
+### List of features and product structure diagram
+
+We have compiled the following list of features:
+
+| No.  | Title                      | Function description                                         |
+| :--- | -------------------------- | ------------------------------------------------------------ |
+| 1    | User's  account management | Log in and log on; Account cancellation                      |
+| 2    | Sorting  display lists     | Sort the  cur list in ascending/descending order by ID       |
+| 3    | Tag  filter                | Filtering  of the list display by tag                        |
+| 4    | Add new tag                | Add a new tag on a pet on showing list                       |
+| 5    | Icon for pet               | Allow  photos of pets to be uploaded, replace with initials of name if left blank |
+| 6    | Delete a pet               | Delete a  pet in the list                                    |
+
+By compiling a list of features and analysing commonly used e-commerce websites, our group obtained the following product structure diagram (drawn via XMind).
+
+![struct img](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/struct%20img.png)
+
+As you can see from the structure diagram above, the functional design of our products adheres to our design philosophy:
+
+* Give users proper control: add pets, delete pets, account management, add tags.
+* Stay consistent: search, tag filter, shopping cart.
+* Using multimedia elements: adding photos to pet.
+
+### What users can do on our webpage
+
+Based on the structure of our app, here is how a user with admin rights would operate on our website (via Process On)
+
+* Login/Register, open main page
+
+  ![p-sign in](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/p-sign%20in.png)
+
+* Add a new pet
+
+  ![p-add pet](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/p-add%20pet.png)
+
+* Delete a pet
+
+  ![p-delete](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/p-delete.png)
+
+### Typical user profiles
+
+After analysing the subjects of the user interviews and the results of the interviews with them, we have come up with two typical user profiles for pet display pages.
+
+* Jane, a university graduate, has just joined the workforce. She lives alone in a rented apartment in a foreign country, with a daily life of three points of contact: the office, the restaurant and the rented house. Her parents are thousands of miles away. Living alone, she desperately needs some psychological comfort and companionship, but is a little afraid of socialising. She pins her hopes on her pet.
+* Alex, aged 30, has children in nursery school. In reading psychology books he discovered that having a pet is good for young children to develop their sense of responsibility and love. So he plans to choose a loving pet for her child.
+
+### Design of UX copywriting
+
+UX copywriting exists closest to where the user interacts with the product, playing the role of product guide, persuader and puzzler. It is like the air that covers the product experience, and like the glue that connects it. It is the most overlooked part of design, but it is also the most important and direct part. [4]
+
+In this product, UX copywriting was not involved in many positions, but it was necessary to explore what kind of copy was appropriate, so we set up a group scoring model, where team members each gave appropriate UX copywriting and scored it within the group.
+
+Based on the results of the scoring, we decided to keep the first version of the UX text for the search bar and the tag filter box, with the default prompt text for the search bar being "Search a pet here" and the default prompt text for the tag filter box being "Input tag here".
+
+In the iteration we also added other UX prompt text:
+
+* Reduce the brightness of the entire page when it loads and prompt 'loading'.
+* Use 'Please input the tag' on the confirmation prompt for add tag.
+* In the add pet feature, if user try to add a pet without entering a name, he will be prompted with 'Error, you must input pet name'.
+* In the add pet feature, the message 'Success, you add pet named [xxx]' is displayed after successful addition.
+* In the delete pet feature, inform user "Do you want to delete this pet id = [xxx]?"
+
+# Evidence of HCI evaluation process
+
+### Scoring of pet showing card design
+
+| Style                                         | Score |
+| --------------------------------------------- | ----- |
+| ![card-2](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/card-2.png) | 3     |
+| ![card-1](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/card-1.png) | 1     |
+
+### Scoring of UX copywriting
+
+* Search
+
+  | Copywriting                | Score |
+  | -------------------------- | ----- |
+  | Search                     | 1     |
+  | Search a pet here          | 2     |
+  | Search a pet by ID or Name | 0     |
+  | Click here to search a pet | 1     |
+
+* Filter
+
+  | Copywriting      | Score |
+  | ---------------- | ----- |
+  | (leave it blank) | 0     |
+  | Filter           | 1     |
+  | Search a tag     | 1     |
+  | Input tag here   | 2     |
+
+
+
+# Reference
+[1]https://uxdesign.cc/focus-on-the-experience-the-interface-might-follow-ceb556ec2a4a
+
+[2]https://www.zhihu.com/question/37254490
+
+[3]http://www.woshipm.com/discuss/146663.html
+
+[4]http://www.woshipm.com/pd/4951038.html
