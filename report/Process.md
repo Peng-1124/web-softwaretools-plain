@@ -9,7 +9,7 @@
   - [High level overview](#High-level-overview)
   - [Time line](#Time-line)
   - [Detail of sprint ](#Detail-of-sprint)
-  - [Highlights & Critical Points](#Highlights & Critical-Points)
+  - [Highlights & Critical Points](#Highlights-and-Critical-Points)
 - [Continuous Integration](#Continuous-Integration) 
   - [Use of git and how GitHub supported us in streamlining our workflows throughout the project](#Use-of-git-and-how-GitHub-supported-us-in-streamlining-our-workflows-throughout-the-project)
   - [Code sharing and parallel development](#Code-sharing-and-parallel-development)
@@ -349,7 +349,7 @@ Notes: we also solved the problem of page reset proposed in the last sprint. We 
 
 All the team members attend the spring beginning meeting. In this sprint, we organized the daily station meeting through wechat as usual. In the final sprint review meeting, we not only evaluated all the development objectives of this sprint, but also evaluated the testing of the overall project.
 
-## Highlights & Critical Points
+## Highlights and Critical Points
 
 In our opinion, there are two highlights and key points of our project. The first highlight and key point occurred in the second sprint, because when we designed to add pets, delete pets, add pet tags and filter functions in the first sprint, we did not find that there was a lot of redundancy in the data we requested. I mean, every time we get and display PET data on the page, a lot of it is repeated. So we de duplicated the data. We removed the pets with the same ID by comparing the IDs of each group of data. Finally, we show all the processed data on the page. As you can see, each pet have identical ID.
 
