@@ -1,6 +1,12 @@
 # content
 - [Abstract](#Background) 
   - [Motivation for the project and framing of the problem and a high-level overview of the system.](#Motivation-for-the-project-and-framing-of-the-problem-and-a-high-level-overview-of-the-system)
+- [Objectives](#Objectives)
+  - [The high level goals of the project and the contribution towards solving the problem and a checklist against which the team can evaluate their success](#The-high-level-goals-of-the-project-and-the-contribution-towards-solving-the-problem-and-a-checklist-against-which-the-team-can-evaluate-their-success)
+- [System design](#System-design)
+  - [Architecture and design of whole pet shop system](#Architecture-and-design-of-whole-pet-shop-system)
+  - [Sequence diagram and introduction](#Sequence-diagram-and-introduction)
+- [Full description of all features](#Full-description-of-all-features)
   
 # Background
 
@@ -22,7 +28,7 @@ Towards this website, pet lovers can search, view, buy, check the pets they want
 
 # Objectives
 
-## The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success
+## The high level goals of the project and the contribution towards solving the problem and a checklist against which the team can evaluate their success
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/targetFigure.png)
 
@@ -73,7 +79,7 @@ After discussing the contribution to our high-level goals, in this report we wil
 
 # System design
 
-### Architecture and design of whole pet shop system
+## Architecture and design of whole pet shop system
 
 The description of the site structure is as follows.
 
