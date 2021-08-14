@@ -20,7 +20,7 @@ Towards this website, pet lovers can search, view, buy, check the pets they want
 
 ## The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success
 
-![目标流程图](C:\Users\Administrator\Desktop\目标流程图.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/targetFigure.png)
 
 ### The objective of our project
 
