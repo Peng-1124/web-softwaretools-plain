@@ -9,7 +9,7 @@
   - [High level overview](#High-level-overview)
   - [Time line](#Time-line)
   - [Detail of sprint ](#Detail-of-sprint)
-  - [Highlights & Critical Points](#Highlights-&-Critical-Points)
+  - [Highlights & Critical Points](#Highlights & Critical-Points)
 - [Continuous Integration](#Continuous-Integration) 
   - [Use of git and how GitHub supported us in streamlining our workflows throughout the project](#Use-of-git-and-how-GitHub-supported-us-in-streamlining-our-workflows-throughout-the-project)
   - [Code sharing and parallel development](#Code-sharing-and-parallel-development)
