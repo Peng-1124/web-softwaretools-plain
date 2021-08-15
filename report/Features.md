@@ -402,17 +402,17 @@ Firstly, we will get the pets using getStatusInfo to store them in to petInfoLis
 
 Firstly, get the information of all pets in the shop.
 
-![image-20210812183314469](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812183314469.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/4-1.png)
 
 Then operate the data with user input
 
-![image-20210812183424299](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812183424299.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/4-2.png)
 
-![image-20210812183538387](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812183538387.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/4-3.png)
 
 we also draw a flow chat as below.
 
-![image-20210812183726702](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812183726702.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/4-4.png)
 
 *do we implement it well?*
 
@@ -436,15 +436,15 @@ The implementation ideas of all search functions are roughly the same, that is, 
 
 Firstly, get the status of the pets
 
-![image-20210812192354809](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812192354809.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/5-1.png)
 
 Then operate the data with user input. Operate the data which are stored in petInfoList
 
-![image-20210812192506377](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812192506377.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/5-2.png)
 
 The filter function is to find the name which matches the input. And the flow chart is as below
 
-![image-20210812192852922](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812192852922.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/5-3.png)
 
 
 
@@ -470,23 +470,23 @@ This fuzzy search function is one of the most successful functions in our projec
 
 Firstly, get the status of pets on sale and then operate the data.
 
-![image-20210812194842255](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812194842255.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/6-1.png)
 
 Finally the data after operation could be returned and displayed on the interface.
 
 The flow chart is as below:
 
-![image-20210812195248889](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812195248889.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/6-2.png)
 
 *do we implement it well?*
 
 As usual, we held a sprint review meeting at the end of the second sprint. As mentioned above, we are particularly satisfied with the consistency of this function. And after developing all the search functions, we also added the selection panel according to what the user said. So since then, users can choose to use all search functions according to their preferences. The figure is shown:
 
-![image-20210812195729595](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812195729595.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/6-3.png)
 
 And the code implementation is shown:
 
-![image-20210812195833499](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812195833499.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/6-4.png)
 
 we match the label with different value and users can choose one to use. In addition, we invite users to experience our new features. Users experience these three functions very well. And the feedback to us is also very helpful to us. They said that these three functions enrich our search function to the greatest extent and are closer to the functions of existing e-commerce websites. But they also raised a problem that we didn't consider, that is, we can't jump back to the original interface every time we display the search results. It is suggested that we can add a reset function so that we can reset our interface and return to the original model. We gladly accepted their comments and promised to develop corresponding functions. The reset feature is developed here(reset 加链接)
 
