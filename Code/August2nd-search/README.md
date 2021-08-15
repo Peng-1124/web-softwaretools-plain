@@ -1,7 +1,10 @@
 # Pet-Store
 
-run government
- `nodeJS 14.17.3`
+Environment
+- `nodeJS 14.17.3`
+- `npm 7.20.1`
+
+Execute the following command to run the project
 
 install
 `npm install`
