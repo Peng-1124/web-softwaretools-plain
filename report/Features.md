@@ -16,7 +16,7 @@
 - [Testing](#testing)
   - [API testing](#API-testing) 
   - [Unit test](#Unit-test)
-   
+  
    
 
 
@@ -259,6 +259,8 @@ e. upload the images of a pets
 f. delete the order placed by buyers
 
 
+
+For us, our main task this time is to use the provided API to design and develop the functions we get from users. Therefore, based on this condition, we may not be able to complete the conditions proposed by some users. For example, we don't choose the order system. From our questionnaire and user interviews, we know that users want more browsing experience. Moreover, our website has not been put into use, so we choose not to make an order system for the time being. If there is a more stable API in the future, we will consider joining the order system. Moreover, for those recommended functions that require high-order algorithms, we can't implement them according to our analysis of the existing APIs. There is also the function of frequent asked questions. We have heard some users mention this function in the user interview, but this function needs an API that can realize real-time communication, which we may not be able to achieve. Of course, other functions based on this can not be realized by using our existing APIs. So we will introduce the functions we decided to do and the new functions we found in the development.
 
 ## Development 
 
