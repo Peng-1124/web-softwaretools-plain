@@ -7,6 +7,7 @@
   - [Prototype of the first version](#Prototype-of-the-first-version) 
   - [Iteration of the prototype](#Iteration-of-the-prototype)
   - [Comparison before and after iteration of key components](#Comparison-before-and-after-iteration-of-key-components)
+  - [Front end technical documentation](#Front-end-technical-documentation)
 - [Reasoned list of design choices](#Reasoned-list-of-design-choices)
   - [Design process](#Design-process)
   - [Philosophy and principles of our design](#Philosophy-and-principles-of-our-design)
