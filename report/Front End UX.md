@@ -341,6 +341,8 @@ Summary: The above is the overall implementation idea and part of the code of ou
 # Reasoned list of design choices
 ### Design process
 
+![process](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/process.png)
+
 Deciding together on the product experience for users through a team meeting first, to gather team consensus and decide on the main features of the product at a higher level to avoid too many later iterative changes, which saves communication costs within the team. Using methods such as questionnaires and user interviews, user requirements are collected, then translated them into product requirements and implemented quickly using paper prototypes.
 
 Once the product prototype were basically determined, wireframe prototypes were created using prototyping software, and then discussed within the group and set a new range of questionnaires and analyse the data. Finally, the newly collected data was used to iterate on the product, including the design of the interface, the product copy, and the rationalisation of the layout.
