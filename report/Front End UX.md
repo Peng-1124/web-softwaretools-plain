@@ -127,6 +127,21 @@ No other functional changes have been made in this iteration (except reset page 
 * The tag filtering and sorting functions that were in the top navigation bar have been moved to the top of the pet's showing list.
 * The user function in the side navigation bar has been moved to the user management pop-up menu.
 
+### Comparison before and after iteration of key components
+* Pet's showing card
+
+  ![change-card](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/change-card.png)
+
+  * WHY: This change is determined by scoring within the group
+  * HOW: Moved pet image from top left to top centre of card; moved delete button down from top right; moved Name and ID from right of centre to bottom left
+
+* Navigetor
+
+  ![change-nav](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/change-nav.png)
+
+  * WHY: The original two-tier navigation bar was designed to emulate the freeads website. During the iteration, we learned through questionnaires that the double navigation bar was functionally confusing for users.
+  * HOW: The tag filter and sort button have been moved out of the topbar and placed in the top right corner of the showing list. The search module, where the input box and search icon were separate, has been redesigned so that the icon and search box are now one module.
+
 # Reasoned list of design choices
 ### Design process
 
