@@ -11,6 +11,7 @@
 - [Reasoned list of design choices](#Reasoned-list-of-design-choices)
   - [Design process](#Design-process)
   - [Philosophy and principles of our design](#Philosophy-and-principles-of-our-design)
+  - [Methodology of the survey](#Methodology of the survey)
   - [Logo, slogan and name design](#Logo,-slogan-and-name-design)
   - [Analysis of existing products](#Analysis-of-existing-products)
   - [List of features and product structure diagram](#List-of-features-and-product-structure-diagram)
@@ -18,6 +19,7 @@
   - [Typical user profiles](#Typical-user-profiles)
   - [Design of UX copywriting](#Design-of-UX-copywriting)
 - [Evidence of HCI evaluation process](#Evidence-of-HCI-evaluation-process)
+  - [Think aloud](#Think-aloud)
   - [First user interview](#First-user-interview)
   - [Second survey questionnaire and user interviews](#Second-survey-questionnaire-and-user-interviews)
   - [Scoring of pet showing card design](#Scoring-of-pet-showing-card-design)
@@ -364,6 +366,10 @@ The following are our team's philosophy and principles in product design. [1] Ou
 * Understand the differences between various aspects of pc and web-based products, with a focus on cross-platform experience.
 * Use the right tools or software to avoid all kinds of usability problems at the end of the line and to prevent product details from being under-represented or overlooked.
 
+### Methodology of the survey
+
+We use several methods to understand and investigate user behaviour, including user interviews, questionnaires and think-aloud.
+
 ### Logo, slogan and name design
 
 A good logo and name are important to showcase the qualities of the product and to attract the attention of the user, and the logo should reflect the theme of our product and the qualities of our team. This reflects our design philosophy of using multimedia elements to influence the user and to evoke emotions.
@@ -488,6 +494,14 @@ In the iteration we also added other UX prompt text:
 * In the delete pet feature, inform user "Do you want to delete this pet id = [xxx]?"
 
 # Evidence of HCI evaluation process
+
+### Think aloud
+
+Think-aloud, which is where users verbalise their thoughts, feelings and motivations as they complete tasks.
+
+Think-aloud can tell us such things as: What parts of the interface do users understand; what parts of the interface do users not understand; why do users not understand; does the interface we have designed work as the user envisaged; are users surprised by what is happening; are there any misunderstandings on the part of the user, etc.
+
+We guide the users to verbalise their thoughts and other concerns during the user interview, which is recorded in detail in the next section.
 
 ### First user interview
 
