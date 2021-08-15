@@ -137,11 +137,11 @@ Pets4Home[2]:
 
 Pets4Home is one of the most popular pet classification information website in the UK. It can be used for pet lovers to sell pets and adopt pets. Tons of dogs, cats and other pets are shown on this website. This website has multiple features and the functional structures at all levels work together, the features of the whole website are perfect, and the design of the website is quite humanized.
 
-![image-20210804010135656](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804010135656.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/website1.png)
 
 And after exploring this website, the functional structure diagram we have drawn is as below:
 
-![image-20210804010316520](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804010316520.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/website1analysis.png)
 
 Analysis: 
 
@@ -156,11 +156,11 @@ Freeads [3]:
 
 Founded in 2010, freeads is a UK classified advertising and community website designed to connect buyers and sellers of second-hand furniture, household products, gardening products, pets, cars, work and property. It covers more than 50 cities in Britain. We just focus on the features it provides for pets trading.
 
-![image-20210804011915026](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804011915026.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/website2.png)
 
 After exploring this website, the functional structure diagram we have drawn is as belwo:
 
-![image-20210804012307717](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804012307717.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/websiteanallysis2.png)
 
 Analysis:
 
@@ -172,11 +172,11 @@ Taobao[4]:
 
 Taobao is the e-commerce software with the largest trading volume and the largest number of downloads in China. Many Chinese people choose Taobao platform when buying qualified pets online.
 
-![image-20210804182053494](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804182053494.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/website3.png)
 
 After exploring the all features of Taobao, we have drawn a functional structure diagram. The diagram is as below:
 
-![image-20210804182518616](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804182518616.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/website3analysis.png)
 
 Analysis:
 
