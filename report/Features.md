@@ -292,7 +292,7 @@ After we finish it, our group decide to design a own page for adding. This is th
 
 For users who want to add a pet, we need them to input the information for a pet, the images, the pet name and the tags of a pet.
 
-!image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature1let.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature1let.png)
 
 The code implementation is shown above. We randomly generate the Pet ID according to the information provided by the user. After the Pet ID is generated, we will send the data using the provided API(axios.post and '/pet'). The flowchart is shown:
 
