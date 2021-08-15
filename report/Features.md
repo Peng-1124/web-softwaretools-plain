@@ -416,7 +416,7 @@ As a user , I want to filter pets through something so that I can find the pets 
 
 *how we  implement filtering pets tags?*
 
-At first, we get the pets' status using axios.get('/pet/findByStatus?status=available'), all information of pets are stored in petInfoList and showInfoList. The difference between petInfoList and showInfoList will be explained here(这里加链接).  We will operate the data according to user input.
+At first, we get the pets' status using axios.get('/pet/findByStatus?status=available'), all information of pets are stored in petInfoList and showInfoList. The difference between petInfoList and showInfoList will be explained [here](#feature-9-resetdata-de-duplication).  We will operate the data according to user input.
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature3-1.png)
 
@@ -434,7 +434,7 @@ The function flowchart is as below:
 
 *do we implement it well?*
 
-After we have finished this feature of our website, in the first sprint review meeting, our team members all consider this feature is qualified. Then we also did the user interview and competitive website analysis, as we can see here(加链接). We have found TaoBao has the same function as this. So when browsing our website, the buyer who wants to buy the pets can filter the pets by their preference on our website. About this feature, our users give us a nice feedback.
+After we have finished this feature of our website, in the first sprint review meeting, our team members all consider this feature is qualified. Then we also did the user interview and competitive website analysis, as we can see during the link at the beginning. We have found TaoBao has the same function as this. So when browsing our website, the buyer who wants to buy the pets can filter the pets by their preference on our website. About this feature, our users give us a nice feedback.
 
 # Feature 4: search pets by ID
 
@@ -572,7 +572,7 @@ And the code implementation is shown:
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/6-4.png)
 
-we match the label with different value and users can choose one to use. In addition, we invite users to experience our new features. Users experience these three functions very well. And the feedback to us is also very helpful to us. They said that these three functions enrich our search function to the greatest extent and are closer to the functions of existing e-commerce websites. But they also raised a problem that we didn't consider, that is, we can't jump back to the original interface every time we display the search results. It is suggested that we can add a reset function so that we can reset our interface and return to the original model. We gladly accepted their comments and promised to develop corresponding functions. The reset feature is developed here(reset 加链接)
+we match the label with different value and users can choose one to use. In addition, we invite users to experience our new features. Users experience these three functions very well. And the feedback to us is also very helpful to us. They said that these three functions enrich our search function to the greatest extent and are closer to the functions of existing e-commerce websites. But they also raised a problem that we didn't consider, that is, we can't jump back to the original interface every time we display the search results. It is suggested that we can add a reset function so that we can reset our interface and return to the original model. We gladly accepted their comments and promised to develop corresponding functions. The reset feature is developed [here](#feature-9-resetdata-de-duplication)
 
 # Feature 7: Sort pets by ID
 
@@ -1059,7 +1059,7 @@ After manually test and automated test. This feature runs well.
 
 ### Data De duplication function test
 
-This function can only be tested manually. Every time we get the PET data, the test is successful because the Pet ID on the screen is not repeated. We have mentioned our function here(加链接)
+This function can only be tested manually. Every time we get the PET data, the test is successful because the Pet ID on the screen is not repeated. We have mentioned our function [here](#feature-9-resetdata-de-duplication)
 
 The result is here
 
