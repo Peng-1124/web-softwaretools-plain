@@ -595,7 +595,9 @@ Based on the feedback we have listed the current areas of improvement for the we
   | Search a tag     | 1     |
   | Input tag here   | 2     |
 
+previous section->[Feature](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Features.md)
 
+next section->[Process](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Process.md)
 
 # Reference
 [1]https://uxdesign.cc/focus-on-the-experience-the-interface-might-follow-ceb556ec2a4a
