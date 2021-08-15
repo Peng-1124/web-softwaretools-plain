@@ -2,15 +2,15 @@ Then we have done the second questionnaire research to get some advanced feature
 
 The second questionnaire is as below(本题答卷总分值means Total score of this question，平均值为means The average value is）
 
-![image-20210804224026632](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804224026632.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/secondquestionaire.png)
 
 The results are as below:
 
-![image-20210804225209820](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804225209820.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/resultOfQuestionnaire2.png)
 
 
 
-![image-20210804225228437](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210804225228437.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/Result2ofquestionnaire2.png)
 
 Analysis:
 
