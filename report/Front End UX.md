@@ -167,6 +167,176 @@ No other functional changes have been made in this iteration (except reset page 
   * WHY: The original two-tier navigation bar was designed to emulate the freeads website. During the iteration, we learned through questionnaires that the double navigation bar was functionally confusing for users.
   * HOW: The tag filter and sort button have been moved out of the topbar and placed in the top right corner of the showing list. The search module, where the input box and search icon were separate, has been redesigned so that the icon and search box are now one module.
 
+### Front end technical documentation
+
+Our front end is mainly written using vue.js and elemenui. The running environment is nodejs. Our software is mainly designed and written by MVVM (model view ViewModel). Because when we get the initial code provided by the teacher, we find that if we write our program with native HTML + CSS, it will become very cumbersome. Moreover, after obtaining user requirements, we find that most of the functions required by users do not affect each other. So this makes use of the biggest function of Vue: componentization. Componentization is to extend HTML elements and encapsulate available code. a. Each independent visual / interactive area on the page is regarded as a component. b. Each component corresponds to a project directory. Various resources required by components are maintained nearby in this directory. c. A page is just a container for components. Components can be nested and combined freely to form a complete page. Moreover, the MVVM model also allows us to better manage each independent interaction area.
+
+MVVM model:
+![c-1](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/c-1.png)
+
+In our front-end development, multiple components exist on one page. The jump between pages is controlled by Vue router.
+![c-2](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/c-2.png)
+
+The screenshot of our front-end directory:
+![c-3](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/c-3.png)
+
+Then I will show part of code of the data structure of pets.
+```
+data() {
+        return {
+            ShowFlag: false,
+            counter: 0,
+            options: [{
+                value: '1',
+                label: 'Id'
+            }, {
+                value: '2',
+                label: 'Name'
+            }, {
+                value: '3',
+                label: 'Fuzzy'
+            }],
+            value: '2',
+            deleteDialogVisible: false,
+            addTagDialogVisible: false,
+            inputTag: '',
+            // pets list -> get from service end
+            petInfoList: [
+                {
+                    'id': 9223372000001028000,
+                    'category': {
+                        'id': 0,
+                        'name': 'string'
+                    },
+                    'name': 'doggie',
+                    'photoUrls': [
+                        'string'
+                    ],
+                    'tags': [
+                        {
+                            'id': 0,
+                            'name': 'string'
+                        }
+                    ],
+                    'status': 'available'
+                }
+            ],
+            // the list be shown on interface
+            showInfoList: [{
+                'id': 9223372000001028000,
+                'category': {
+                    'id': 0,
+                    'name': 'string'
+                },
+                'name': 'doggie',
+                'photoUrls': [
+                    'string'
+                ],
+                'tags': [
+                    {
+                        'id': 0,
+                        'name': 'string'
+                    }
+                ],
+                'status': 'available'
+            }],
+            // Set to true when obtaining server data, indicating that data is being obtained
+            fullscreenLoading: false,
+           
+            searchKeyWord: '',
+        
+            filterCategoryString: '',
+          
+            // filterTagString: 'string',
+            // filterTagString: 'testtag2',
+            filterTagString: '',
+           
+            queryPetName: '',
+
+            addPetInfo: {},
+            deleteItemId: 0,
+            addTagItemId: 0
+
+        }
+    },
+                
+```
+The data structure of users when they register
+```
+registerButtonClicked() {
+            let formData = {
+                'id': Math.ceil((Math.random() * 10000000)).toString(),
+                'username': this.registerFormData.username,
+                'firstName': this.registerFormData.firstName,
+                'lastName': this.registerFormData.lastName,
+                'email': this.registerFormData.email,
+                'password': this.registerFormData.password,
+                'phone': this.registerFormData.phone,
+                'userStatus': '0'
+            }
+
+            this.$axios.post('/user',
+                formData,
+                { headers: { 'Content-Type': 'application/json' } }
+            ).then((res) => {
+                if (res.data.code === 200) {
+                    this.$message(
+                        'Register success!'
+                    )
+                }
+
+            }).catch(
+
+            )
+            this.dialogFormVisible = false
+            this.registerFormData.username = ''
+            this.registerFormData.firstName = ''
+            this.registerFormData.lastName = ''
+            this.registerFormData.email = ''
+            this.registerFormData.password = ''
+            this.registerFormData.checkPassword = ''
+            this.registerFormData.phone = ''
+        }
+```
+
+part of code of our vue-router. How do we achieve page Jump. Main page to adding page
+
+```javascript
+ navigatePage(pagePath) {
+            this.$router.push({ path: pagePath })
+        },
+```
+
+login/registration page to main page
+
+```javascript
+signInButtonClicked() {
+            this.$axios.get('/user/login?' +
+                'username=' + this.loginForm.username + '&' +
+                'password=' + this.loginForm.password,
+                { headers: { 'Content-Type': 'application/json' } }
+            ).then((res) => {
+                console.log(res.data)
+                this.getUserLoginRes = res.data
+
+                if (this.getUserLoginRes.code === 200) {
+                    global.userName = this.loginForm.username
+                    sessionStorage.setItem('userName', this.loginForm.username);
+                    this.$router.push('/pet/show')
+                } else {
+                    this.$message({
+                        message: 'Reset',
+                        type: 'success'
+                    })
+                }
+            }).catch(
+            )
+        },
+```
+
+Summary: The above is the overall implementation idea and part of the code of our front-end code. There are several components in each page that can interact with users. Different methods control different interactions. For example, click search, and the search method will be called to return the information the user wants. Vue router controls the jump between our interfaces. Every time the user clicks the button with jump function, our route will navigate to help the user realize jump.
+
+
 # Reasoned list of design choices
 ### Design process
 
