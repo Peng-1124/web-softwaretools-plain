@@ -1349,6 +1349,10 @@ In the integration test of the program, we mainly tested the cooperation between
 
 The administrator has all the rights that the user has, and there are three other rights: adding pets, deleting pets, and adding tags to pets. We have done this before.
 
+previous section->[Background](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Background.md)
+
+next section->[Front End UX](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Front%20End%20UX.md)
+
 # References
 
 [2]Pet4Home, https://www.pets4homes.co.uk/
