@@ -282,31 +282,31 @@ As a user(the user is the owner of this website), I want the add or delete the p
 
 It is the most important part of our each development process. Firstly, we need to get the status of pets in store use the API in swagger.io named /findByStatus in order to get all pets in shop.  Then we will store all the pets available in a data structure named petInfoList in order to call directly the next time to reduce the workload. And some users have found that we have the pets with the same ID, they want us to deal with this problem. Finally, this function passed the unit test.
 
-![image-20210812155219103](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812155219103.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/getstatusInfo.png)
 
-![image-20210812155123541](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812155123541.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/mounted1.png)
 
 After we finish it, our group decide to design a own page for adding. This is the page:
 
-![image-20210812152221834](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812152221834.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/addpage1.png)
 
 For users who want to add a pet, we need them to input the information for a pet, the images, the pet name and the tags of a pet.
 
-![image-20210812152415502](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812152415502.png)
+!image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature1let.png)
 
 The code implementation is shown above. We randomly generate the Pet ID according to the information provided by the user. After the Pet ID is generated, we will send the data using the provided API(axios.post and '/pet'). The flowchart is shown:
 
-![image-20210812173706877](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812173706877.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature1flow.png)
 
 *how we do to implement deleting pets?*
 
 The implementation of deleting pets is similar to that of adding pets, but there are some differences. We added a secondary confirmation interface between deletion and deletion completion.
 
-![image-20210812154527079](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812154527079.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature1delete.png)
 
 if users type yes, the pets will be invisible on our main page. The code implementation is shown:
 
-![image-20210812154720235](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812154720235.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature1deletebutton.png)
 
 *Do we implement it well*?
 
