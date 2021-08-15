@@ -506,11 +506,11 @@ As a user I want to the pets on this website have a order so that I can browse t
 
 About this feature, the general implementation idea of this function is to re sort the data in the array through the ascending and descending order of ID by processing the data stored in the array and using the sorting algorithm. In this way, the data in the array can be accessed again, which is arranged in the specified order. The first step of this feature is to get all the pets in shop. And sort the pets according to user input. The code implementation is as below:
 
-![image-20210812233301816](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812233301816.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/7-1.png)
 
 To implement this function, we use sort function to operate the array then return. The sort function is a built-in function in JavaScript,. This function is very "stable". It can quickly sort the string in situ according to the Unicode code point of the string, and finally store the sorting result back to the string. We really use this point of the sort function to achieve this function. This feature can make us view the pets by ID ascending or descending. The flow chart is below:
 
-![image-20210812234014735](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812234014735.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/7-2.png)
 
 *do we implement it well?*
 
@@ -534,31 +534,31 @@ For this function, when we did User Research for the first time, some users prop
 
 This function is considered to be one of the most successful functions in the second sprint. Because I set a bool type value called showflag for the component containing the three functions of adding pets, deleting pets, and adding labels to pets. Only when their value is true, the components containing these three functions will be visible.
 
-![image-20210813000453021](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813000453021.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-1.png)
 
-![image-20210813000504049](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813000504049.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-2.png)
 
-![image-20210813000517362](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813000517362.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-3.png)
 
 In this way, the three components will be visible only when the system recognizes the login of the account with the account name “admin”.
 
 If you are a administrator,the interface is as below. Administrator has more functions to use than other uses(Notes: Marked in red circle)
 
-![image-20210810163321475](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810163321475.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-4.png)
 
 If you are a users who wants to bu pets through our website, the interface is as below:
 
-![image-20210810163541005](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210810163541005.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-5.png)
 
 After the division of permissions, all we have to do is a login and registration system. After the team members' analysis and understanding of the same products, when we visit some large websites, we can visit them either through registered accounts or as tourists. As the name suggests, to visit as a tourist is to log in directly to the web page without account registration. First, we design and write the registration page. In the registration interface, users can choose to log in directly or log in after registering their personal information. If you log in to our website by registering your own account, users must fill in their personal information. The filled personal information is also designed according to the data structure displayed in the API provided by the teacher.  
 
-![image-20210813001548736](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813001548736.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-6.png)
 
-![image-20210813001508008](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813001508008.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-7.png)
 
 When the user completes the registration, we will use API provided by teacher to post his information to database and then he can log in.
 
-![image-20210813001953146](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813001953146.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/8-8.png)
 
  When the system detects that a user with the user name admin logs in, it will open permissions for this user. And when anyone completes registration, they can view their personal information on the website. The function corresponding to login is logout. We also made it according to user needs.
 
@@ -576,19 +576,19 @@ To be honest, our function is very successful for distinguishing permissions, be
 
 Because these two features are discovered by ourselves in our development or through user feedback. The development of these two features is very important to our website. Let's first talk about the reset function, which is a problem found by our users after experiencing our search function, because after each search, our web page cannot return to the state before the search due to some technical problems, that is, the web page is stuck. Therefore, after user feedback, we have made the reset function. The result is as below:
 
-![featurerest功能](D:\Figure\featurerest功能.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/9-1.gif)
 
 The code implementation is here
 
-![image-20210813003316366](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813003316366.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/9-2.png)
 
 Then there is the array de duplication feature, which our team members found through user feedback and their own development process. We note that the data obtained in each request has a "Repetition". What we call "Repetition" is that many pets have the same ID. Therefore, after group discussion, it is decided to realize the function of array de duplication. Remove pets with the same ID and only show different ones. This greatly facilitates our subsequent development, because many of our subsequent development are aimed at Pet ID, including searching pets through ID, sorting pets through ID, etc. The code implementation is here(The code also shows that the difference and relationship between showInfoList and petInfoList):
 
-![image-20210813003524689](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813003524689.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/9-3.png)
 
 The unique function implementation:
 
-![image-20210813003633972](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813003633972.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/9-4.png)
 
 *do we implement it well?*
 
