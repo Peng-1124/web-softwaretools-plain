@@ -1,10 +1,19 @@
+# content
+- [Possible Features](#Possible Features) 
+  - [API analysis](#API-analysis) 
+  - [User questionnaires](#User-questionnaires)
+  - [User interview](#User-interview)
+  - [Development](#Development)
+   
+
+
 # Possible Features
 
 At the first moment of getting the project task, we analyzed the API provided to us by the teacher. Because to some extent, we can't change the backend and database of this project. All we can do is analyze the functions that these APIs can achieve according to the APIs on swagger.io, and implement them, etc. First of all, we analyze that the users of this website are oriented to two types of people, one is the owner of the website, and the other is the users of the website, that is, those who really need to buy.
 
 According to the tips of API, the basic functions provided by API are as follows:
 
-### API analysis
+## API analysis
 
 A. For APIs in pet
 
@@ -72,7 +81,7 @@ After analyzing all possible basic functions, we thought about what other advanc
 
 After analyzing all possible basic functions, we thought about what other advanced functions can be completed before user research. Because we intend to use questionnaires and user interviews to further obtain user needs. The scope of the questionnaire is very wide, but if it is set to fill in the blank, users may speak freely. We can't directly modify the backend and database of this project, so we may not be able to realize the functions proposed by users. Therefore, in terms of questionnaire survey, we intend to set up two groups of questionnaires to conduct user survey in the form of multiple-choice questions. In the two groups of questionnaires, users can select and score functions according to their own ideas. In the first group of questionnaires, we set up two different roles, one is the administrator role, that is, the owner of the website, and the other is the person who intends to buy pets through the website. Users can select functions according to different needs. The figures and the analysis of the first questionnaire are as below:
 
-### User questionnaires
+## User questionnaires
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/Firstquestionnire.png)
 
@@ -114,7 +123,7 @@ According to user questionnaires, the most important feature of this website the
 
 The above questionnaire may not cover all basic functions, because we have conducted many user interviews after the two questionnaires. In user interviews, we will show them all our basic functions and advanced functions we can think of. They will also be asked if they have any suggestions for adding new features. So our team members have done several user interviews. The one module of our user interview record is as below:
 
-### User interview
+## User interview
 
 | Interview Date: 31th July 2021                               | Interview way: wechat meeting                               |
 | ------------------------------------------------------------ | ----------------------------------------------------------- |
@@ -129,7 +138,7 @@ According to user interview, we have seen that: the search function is also one 
 
 
 
-### Competitive and similar product analysis
+## Competitive and similar product analysis
 
 We first analyze the main pet purchase channels in the UK and China. Study the advantages and disadvantages of features and user experience to provide experience and establish direction for our development.
 
@@ -236,15 +245,15 @@ f. delete the order placed by buyers
 
 
 
-### Development 
+## Development 
 
 Before we start the first feature, we want to introduce the front-end framework we use to develop the function, the requested API, the operating environment and so on. We choose vue.js and element UI to finish our front-end. Then use axios, which is a asynchronous communication framework, because Vue itself does not have communication function. The The APIs used are those provided by the SPEG team. Our program needs to run in the node environment.
 
-##### Why vue and Element UI
+#### Why vue and Element UI
 
 Vue is a set of progressive JavaScript (least advocated) framework for building user interfaces. Developers only need to focus on view layers. It is not only easy to start, but also easy to integrate with third-party libraries or existing projects. It is based on the design idea of MVVM (model view ViewModel, i.e. view layer view model layer model layer). It provides a library for two-way binding of MVVM data, focusing on the UI level. Element is a set of business independent UI component library based on Vue. It provides rich PC side components, reduces the encapsulation of common components and reduces the difficulty of development. The most important thing is that element UI is a component library based on Vue encapsulation, which simplifies the encapsulation of common components and improves the principle of reusability. Our development is based on the framework based on HTML and CSS, and many functions designed by our team are based on clicking a component to trigger the function. Vue and elementui cooperate very well in this regard. So it also prompted us to make such a choice.
 
-##### Why axios
+#### Why axios
 
 Because when doing Vue medium and large-scale projects, the official recommendation to use axiosaxios is actually the encapsulated Ajax, which is essentially the encapsulation of native XHR, but it is the implementation version of promise and conforms to the latest es specification.
 
