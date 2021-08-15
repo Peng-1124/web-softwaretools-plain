@@ -289,7 +289,9 @@ To sum up, this is why we chose the above framework development.
 # Feature 1: add pets feature/delete pets feature
 
 ## Justification
+
 Data link:
+
 a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
 
 b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
@@ -350,6 +352,16 @@ if users type yes, the pets will be invisible on our main page. The code impleme
 
 ## Justification
 
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
+
 *when do we decide to do*? *why we do this(user input)*?
 
 We decide to finish this function during our first sprint. Because before the we did the use interview and questionnaires we have found that this function is the essential function, especially for users who may be the administrators of the website. And according to our first questionnaire(July) and competitive website analysis, we found that our interviewees also have great demand for this function.
@@ -384,6 +396,16 @@ In the sprint 1 review meeting, all the team members think this function is qual
 
 ## Justification
 
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
+
 *when do we decide to do*? *why we do this*(user input)?
 
 we also decide to finish this feature in the first sprint. We think this feature will be used by buyers as well as   the administrator of the website. After our own analysis, we did user questionnaire, user interview and competitive product analysis. Especially when we analyzed the similar and competitive product we found that almost of them have this functions. Major websites allow users to find their favorite products by filtering some characteristics of products. For example, if I want to buy a computer, I can filter the existing computers on the website through the graphics card level and CPU level, so as to get what I want.
@@ -417,6 +439,16 @@ After we have finished this feature of our website, in the first sprint review m
 # Feature 4: search pets by ID
 
 ## Justification
+
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
 
 *when do we decide to do? why we do this(with user input)?*
 
@@ -454,6 +486,16 @@ We do this development in the second sprint and after it we also hold the sprint
 
 ## Justification
 
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
+
 *when do we decide to do*?*why we do this*?(with user input)
 
 According to our previous analysis, both from the results of the second questionnaire and from the results of user interviews. Users are persistent about the search function, so we think what users need most is the search function. Therefore, our search function is from simple to complex. This search function should be relatively simple in the search function. So we decided to implement this function in the second sprint.
@@ -487,6 +529,16 @@ We have discussed whether this function is qualified in our second sprint review
 # Feature 6: Fuzzy search
 
 ## Justification
+
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
 
 *when do we decide to do*?*why we do this*?
 
@@ -526,6 +578,16 @@ we match the label with different value and users can choose one to use. In addi
 
 ## Justification
 
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
+
 *when do we decide to do*?*why we do this*?
 
 This function enables us to analyze the functions of Taobao website and user interviews. Because now many websites have sorting functions, but most sorting functions realize sorting such as price. Because the goods on our website have no price attribute, we decided to do this function to imitate price ranking. Through this function, we can sort pets by ID. We did this in the second sprint.
@@ -551,6 +613,16 @@ The team discussed this feature at the second sprint wrap up meeting. Some team 
 # Feature 8: Login/registration/Permission classification
 
 ## Justification
+
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
 
 *when do we decide to do*? *why we do this*?
 
@@ -603,6 +675,16 @@ To be honest, our function is very successful for distinguishing permissions, be
 # Feature 9: Reset/Data De duplication
 
 ## Justification
+
+Data link:
+
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
 
 *when do we decide to do*? *why we do this*?
 
