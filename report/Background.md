@@ -34,6 +34,8 @@ Towards this website, pet lovers can search, view, buy, check the pets they want
 
 ### The objective of our project
 
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/objective.png)
+
 a. Collect the needs of users in various ways and make corresponding plans. Before getting user feedback, you can analyze and design the basic functions and basic framework of the website.
 
 b. Use the existing API to cooperate with each API through data processing. Develop and realize the functions required by users.
