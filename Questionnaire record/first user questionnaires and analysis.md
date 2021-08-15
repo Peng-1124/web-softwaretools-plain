@@ -1,6 +1,6 @@
 ### User questionnaires
 
-![第一次用户问卷](C:\Users\Administrator\Desktop\第一次用户问卷.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/Firstquestionnire.png)
 
 
 
@@ -8,11 +8,11 @@ About how to design our this questionnaire,  the main goal of this questionnaire
 
 The result of this questionnaire has been collected by us and we make several related charts to analyze the possible features we can add to this pet selling website. The related charts are as below. If as a seller:
 
-![image-20210802224924231](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210802224924231.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/questionnaire1r1.png)
 
 And if as a buyer:
 
-![image-20210802225015661](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210802225015661.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/question1r2.png)
 
 According to the charts above, we have discussed the results. As a seller,  there is a great demand for the first three features(1. The website can show the information of the pets to buyers. 2. Sellers can upload the images or tags of the pets in order to complete the information of pets which are selling. 3. Update the pets on sale information.), which may be because these three functions are the most basic for a sales website. Whether as a product manager or a user of a pet website, these features may be the most basic. In order to make the website selling pets work, these features above are indispensable in the eyes of users. As a buyer, viewing the photos, buying the favorite pets on website and checking the status of pets are the first three choices.
 
