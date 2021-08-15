@@ -576,19 +576,19 @@ we also have sprint review meeting after each sprint. And will try to get user f
 
 a. The first sprint
 
- After the first sprint, we have finished some basic features on our website. And we hold the sprint review meeting to evaluate the process and result of our first outcomes. All the members of our team have marked our features. Because our features developed in this sprint are relatively basic. So all of our team members think our functions are qualified. In addition, about the user interview. Add pets, delete pets and add labels to pets. Our design and development were successful. Moreover, we will give users relative prompts after the operation is completed. If you want to see the details of the user feedback after the first sprint, you can click here(加链接)
+ After the first sprint, we have finished some basic features on our website. And we hold the sprint review meeting to evaluate the process and result of our first outcomes. All the members of our team have marked our features. Because our features developed in this sprint are relatively basic. So all of our team members think our functions are qualified. In addition, about the user interview. Add pets, delete pets and add labels to pets. Our design and development were successful. Moreover, we will give users relative prompts after the operation is completed. If you want to see the details of the user feedback after the first sprint, you can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint1)
 
 
 
 b. The second sprint
 
-As usual, after the second sprint. We held a review meeting according to the rules of agile development to discuss and analyze our achievements in the second phase. And the team members will score our results. All team members believe that our function is mature. And the most important thing is that we have distinguished the permissions of administrators and users in this development. Although the login registration function needs to be improved, we are successful in terms of distinguishing permissions. As for user feedback, we have to mention that this user feedback has helped us a lot. Because many users find that when using the search function, we can't turn back the page after displaying the search results. Therefore, according to user feedback, we have added a reset function, so that as long as we click the reset page after each search function, we will return to the main interface. If you want to review the user feedback after the first sprint, you can click here(加链接)
+As usual, after the second sprint. We held a review meeting according to the rules of agile development to discuss and analyze our achievements in the second phase. And the team members will score our results. All team members believe that our function is mature. And the most important thing is that we have distinguished the permissions of administrators and users in this development. Although the login registration function needs to be improved, we are successful in terms of distinguishing permissions. As for user feedback, we have to mention that this user feedback has helped us a lot. Because many users find that when using the search function, we can't turn back the page after displaying the search results. Therefore, according to user feedback, we have added a reset function, so that as long as we click the reset page after each search function, we will return to the main interface. If you want to review the user feedback after the first sprint, you can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint2)
 
 
 
 c. The third sprint
 
-After the third sprint, we also had a review meeting and user interviews. Because in the continuous iteration of our UI, users have gradually accepted our website and feel that our website is very convenient to browse, and the red and white themes can bring up everyone's love for pets. If you want to review the user feedback after the third meeting, you can click here.(加链接)
+After the third sprint, we also had a review meeting and user interviews. Because in the continuous iteration of our UI, users have gradually accepted our website and feel that our website is very convenient to browse, and the red and white themes can bring up everyone's love for pets. If you want to review the user feedback after the third meeting, you can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint3)
 
 ### Scoring of pet showing card design
 
