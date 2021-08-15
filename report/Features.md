@@ -316,7 +316,9 @@ As a user(the user is the owner of this website), I want the add or delete the p
 
 *how we do to implement adding pets?*
 
-It is the most important part of our each development process. Firstly, we need to get the status of pets in store use the API in swagger.io named /findByStatus in order to get all pets in shop.  Then we will store all the pets available in a data structure named petInfoList in order to call directly the next time to reduce the workload. And some users have found that we have the pets with the same ID, they want us to deal with this problem. Finally, this function passed the unit test.
+It is the most important part of our each development process. Firstly, we need to get the status of pets in store use the API in swagger.io named /findByStatus in order to get all pets in shop.  Then we will store all the pets available in a data structure named petInfoList in order to call directly the next time to reduce the workload. And some users have found that we have the pets with the same ID, they want us to deal with this problem. Finally, this function passed the unit test. 
+
+One more thing to mention here is. During API testing, we found that there was a problem with the function of uploading photos, so when adding pets here, we stipulated that the uploaded pet photos are an alternative photo in. JPG format.
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/getstatusInfo.png)
 
