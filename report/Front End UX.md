@@ -318,6 +318,13 @@ In the iteration we also added other UX prompt text:
 
 ### First user interview
 
+Each member of our group, as part of the development team, conducted user interviews with close friends to find out what they expected a pet's showing website to look like and what specific features they would like to have in it.
+
+* [Hao with Li](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Hao%20with%20%20Li.md), [Hao with Liang](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Hao%20with%20Liang.md), [Hao with Wang](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Hao%20with%20Wang.md), [Hao with Zhang](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Hao%20with%20Zhang.md)
+* [Peng with Haoyu](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Peng%20with%20Haoyu.md), [Peng with Nick](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Peng%20with%20Nick.md)
+* [Richard with Haoran](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Richard%20with%20Haoran.md), [Richard with Peiqi](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Richard%20with%20Peiqi.md), [Richard with Zeyuan](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Richard%20with%20Zeyuan.md), [Richard with Chenxing](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Richard%20with%20chenxing.md)
+* [Weibang with Haiyang](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Weibang%20with%20Haiyang.md), [Weibang with Jaques](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/User%20interview%20record/Weibang%20with%20Jaques.md), [Weibang with Jenny](
+
 ### Second survey questionnaire and user interviews
 
 This is a feature satisfaction survey where users can rate their satisfaction with the features we have developed. The scores range from zero to one hundred. One hundred is the most satisfied and zero is the least satisfied. Also, because we have differentiated between features for buyers and sellers, we have also differentiated this in the questionnaire. The questions are for buyer, for both buyer and seller, for seller.
