@@ -1,3 +1,15 @@
+# content
+- [Summary](#Summary)
+- [Analysis](#Analysis)
+  - [Overview](#Overview)
+  - [Detail](#Detail)
+- [Reflection](#Reflection)
+  - [Reflect on the working practices and team work](Reflect-on-the-working-practices-and-team-work)
+  - [Feature work and to do list](#Feature-work-and-to-do-list)
+  - [Person summary](#Person-summary)
+  
+
+
 # Summary
 
 Before the start of the project, we did a background check and API testing so that we can use the API for development smoothly. So I want to summarize our overall project in the following aspects.
@@ -58,7 +70,7 @@ Our group gets user feedback mainly through user interviews. Because we think th
 
 # Reflection
 
-## Reflect on the working practices and team work（general)
+## Reflect on the working practices and team work
 
 For group practice. After receiving the task on the first day, our team analyzed the model we would adopt. After analysis, we think the agile development model is more suitable for our team. Because our cycle is short this time, the task of team development needs to meet all the requirements of users, so we need to actually interact with users. After obtaining user feedback, the product is iterated. Comparing Extreme Programming with scrum, we decided to adopt scrum development. We have three sprints in this development process. During sprint development, our team members strictly abide by Kanban information update rules and git submission rules. We have to say that Kanban helped us a lot in this development process, because with the help of Kanban, all the work of the team members is "transparent". Managers can clearly understand the work status of each member, such as the work being done, the work completed, the work that is difficult and needs the help of teammates, etc. In addition, the daily station meeting ensures frequent communication between team members. Developing in communication effectively avoids possible code refactoring problems. Finally, after each sprint, we will hold a sprint review meeting. The sprint review meeting is very important for each development, because at this meeting, we will evaluate our phased results and analyze user interviews and questionnaires. After evaluation and user feedback, we will get some valuable information, such as where our products need to be improved. We will put what we need to improve in the next sprint. Another point to mention is that we stated the strict git management scheme at the beginning of the project. Team members are in charge of branches and their own folders to avoid conflict. This management method is very helpful to us. This management method ensures that there is no conflict in the case of parallel development. This makes our development go very smoothly.
 
@@ -80,7 +92,7 @@ d. Implementation evaluation system
 
 
 
-### Person feelings
+## Person summary
 
 Weibang Tang
 
