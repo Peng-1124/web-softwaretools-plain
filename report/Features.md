@@ -364,19 +364,19 @@ As a user , I want to filter pets through something so that I can find the pets 
 
 At first, we get the pets' status using axios.get('/pet/findByStatus?status=available'), all information of pets are stored in petInfoList and showInfoList. The difference between petInfoList and showInfoList will be explained here(这里加链接).  We will operate the data according to user input.
 
-![image-20210812172238366](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812172238366.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature3-1.png)
 
 In order to realize this function, we filter the data we get according to the user's input.
 
-![image-20210812172708442](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812172708442.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature3-2.png)
 
 Then, the data in petInfoList will be operated here and the data users want will be got. The pets information in petInfoList will be updated and show on the webpage.
 
-![image-20210812174652177](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812174652177.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature3-3.png)
 
 The function flowchart is as below:
 
-![image-20210812174547485](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812174547485.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature3-4.png)
 
 *do we implement it well?*
 
