@@ -15,7 +15,7 @@
 
 * Each team member is only responsible for their own part of the corresponding branch and workspace, use `git pull` before each work, and no changes to any content of other branches
 
-* Each time a group member makes a file update, they need to `git push` to the branch they are responsible for in the remote repository, with the following `git commit` rules
+* Each time a group member makes a file update, they need to `git push` to the branch they are responsible for in the remote repository, with the following `git commit` suggestions
 
   ```
   // New files/folders added:
