@@ -174,9 +174,9 @@ We started with an analysis of the main pet buying routes in the UK and China. S
   pets4homes is the UK's most popular pet classifieds site.
   Users can search thousands of dogs, puppies, cats, kittens and other pets for sale and adoption, as well as post free pet ads for pet sellers.
 
-  ![pet4home-page](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/pet4home1.png)
+  ![pet4home-page](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/pet4home-page.png)
 
-  ![pets4home-struct](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/pet4home2.png)
+  ![pets4home-struct](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/pets4home-struct.png)
 
   * The whole page of pets4home has a yellow theme and the logo is a cartoonish dog and cat head.
   * Topbar is relatively clean, has a switch to turn on sidebar, logo and name, account management
