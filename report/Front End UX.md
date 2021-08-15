@@ -291,6 +291,62 @@ In the iteration we also added other UX prompt text:
 
 # Evidence of HCI evaluation process
 
+### Second survey questionnaire and user interviews
+
+This is a feature satisfaction survey where users can rate their satisfaction with the features we have developed. The scores range from zero to one hundred. One hundred is the most satisfied and zero is the least satisfied. Also, because we have differentiated between features for buyers and sellers, we have also differentiated this in the questionnaire. The questions are for buyer, for both buyer and seller, for seller.
+
+| For buyer                                                    | For seller                                                   | For both                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Users can find pets by name, such as doggie.[0(unwanted) to 100(wanted)] | Users can upload pictures to each pet on the website to provide more information for customers to choose. [0(unwanted) to 100(wanted)] | The basic features, login/logout. [0(unwanted) to 100(wanted)] |
+| our website need adding a button reset which user can use it to return the home page. [0(unwanted) to 100(wanted)] | Owners can add pets or delete pets. [0(unwanted) to 100(wanted)] |                                                              |
+| Filter the pet according to ID, we can sort in ascending and descending order. [0(unwanted) to 100(wanted)] |                                                              |                                                              |
+| Enable our website can search for pets through tags. [0(unwanted) to 100(wanted)] |                                                              |                                                              |
+| Users can use fuzzy search for finding favorite pets. [0(unwanted) to 100(wanted)] |                                                              |                                                              |
+
+A total of 46 responses were collected for this questionnaire. Of these, 31 were from Buyer Experiencers and 15 points were from Seller Experiencers. The specific results and analysis are as follows.
+
+For buyer:
+
+| Features                                                     | Total score | Average score | Analysis                                                     |
+| ------------------------------------------------------------ | ----------- | ------------- | ------------------------------------------------------------ |
+| Users can find pets by name, such as doggie.                 | 2525        | 81.3          | The score is moderate and more than satisfactory. The friendliness of this feature relies more on the pet information uploaded by the seller. |
+| our website need adding a button reset which user can use it to return the home page. | 2542        | 82            | This feature has also received a relatively high level of satisfaction. The improvement of this feature is based on the feedback from our user interviews. Also, based on the results of the questionnaire we can see that this improvement has been very successful. |
+| Filter the pet according to ID, we can sort in ascending and descending order. | 2255        | 72.7          | In the results, satisfaction with this feature is low. We speculate that there may have been some confusion about the IDs, which caused users to be confused when searching. These IDs are largely dependent on the API in the request and we have removed the duplicate IDs, but there is still room for improvement in terms of user experience. |
+| Enable our website can search for pets through tags.         | 2728        | 88            | This feature has the highest score. It is the feature that users are most satisfied with. As a seller, users can add tags to their pets to add information about them, including age, breed, etc. As a buyer, you can filter the selection of pets by searching for the tags you need. |
+| Users can use fuzzy search for finding favorite pets.        | 2694        | 86.9          | Satisfaction with this feature was high, ranking second in the survey. Users expressed their love for this feature in their use. In the survey, it was found that fuzzy search is a must-have. This function will help users with a purpose, for example, a user who wants to find a husky can use this function to find it quickly. |
+
+For seller:
+
+| Features                                                     | Total score | Average score | Analysis                                                     |
+| ------------------------------------------------------------ | ----------- | ------------- | ------------------------------------------------------------ |
+| Users can upload pictures to each pet on the website to provide more information for customers to choose | 1285        | 85.7          | Satisfaction is high. From the seller's point of view, they want to attract the user's attention by uploading multiple photos of cute or cool pets. So they will score higher. |
+| Owners can add pets or delete pets                           | 1292        | 86.1          | User surveys show that this is the most requested feature for sellers. It is also the most important basic feature of the seller's functionality. It allows sellers to manage their shop information. Generally speaking, we need to ensure the best possible user experience with this feature. |
+
+For both seller and buyer:
+
+| Features                  | Total score | Average score | Analysis                                                     |
+| ------------------------- | ----------- | ------------- | ------------------------------------------------------------ |
+| Log in, log out, Register | 3314        | 72            | The user login function is a must. However, the survey found that users were less concerned about this feature, probably because they are used to logging in and out of the site. Our analysis of the results showed that sellers were a little more satisfied with the login feature. We speculate that this is because they need the admin account more to make updates to their pet's information, including pictures and tags. Therefore, they would have scored higher. |
+
+User feedback was completed by four members of our team, with secondary interviews done with some of the users from the previous interview. This was able to improve the efficiency and accuracy of the feedback based on an effective understanding of the website. The user feedback was free of personal and sensitive information and the feedback was as follows.
+
+| User | Feedback                                                     |
+| ---- | ------------------------------------------------------------ |
+| 1    | The navigation bar looks very confusing.                     |
+| 2    | It is difficult to search only by id and name, and hope that some other more user-friendly search methods can be added. |
+| 3    | The overall look is fine and it is easy to use.              |
+| 4    | Simple pages, I like this simple presentation best.          |
+| 5    | You can only see the picture and name of the pet, which is less information. Would like to get some other information like breed or age etc. |
+| 6    | Couldn't the filtering function be better, for example if I only wanted to see dogs or cats. There are even actually a lot of times when I will just go looking for information on Corgi and hopefully it will allow me to see Corgi straight away. |
+| 7    | There is no way to return to the main page when adding pets and viewing the user info. |
+
+Based on the feedback we have listed the current areas of improvement for the website.
+
+* Change the layout of the navigation bar and redesign it.
+* Optimize the fuzzy search feature.
+* Optimise the tagging function to make it easier for sellers to add more additional information that is easy to find when tagging pets.
+* Add buttons to some sub-pages to return to the main page.
+
 ### Scoring of pet showing card design
 
 | Style                                         | Score |
