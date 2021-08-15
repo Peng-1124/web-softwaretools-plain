@@ -1,6 +1,9 @@
 # Content
 - [UX Development](#UX-Development)
 - [Documentation of final front end design](#Documentation-of-final-front-end-design)
+- [Reasoned list of design choices](#Reasoned-list-of-design-choices)
+- [Evidence of HCI evaluation process](#Evidence-of-HCI-evaluation-process)
+- [Reference](#Reference)
 
 # UX Development
 ### Webpage design framework
