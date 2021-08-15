@@ -241,11 +241,14 @@ The first thing in this sprint we do is to complete a basic frond-end frame so t
 
 #### Sprint meeting log
 
+
 During this sprint, we hold a meeting at beginning to discuss our main user stories and cut them in to four tasks. Each task will last one day. Hao was absent for covid antibody test. At the meeting, we discussed the feasibility of several features and the uncertainty of the API provided. Because in the test phase, we found that the data returned by several APIs was unstable. Some data will change after the page is refreshed. We also discussed the design of adding pages, whether we need pop-up windows or new pages. In addition, we discussed the filtering function. In order to allow users to filter out pets they are not interested in, we decided to filter pet tags to achieve this function. After the first meeting, we will hold a daily station meeting through wechat every day in this sprint. Team members report their work, problems encountered, and functions to be developed the next day at the daily station meeting. Finally, after all the functions in this sprint have been developed and tested, we have held sprint review meeting invite users to try these functions and then improve according to user feedback. Notes: After a task is over, our team member will update the Burn Down Chart and the personal kanban. 
 
 And the most important thing is that our team members and users have found that every time we get PET data, there will be a lot of duplicate data. After discussion, we feel that we need to process every request to get data. Do an array de duplication for the data. Through ID filtering, the ID of each pet is consistent.
 
 If you want view the record of the first sprint review meeting and the user feedback after the first sprint. You can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint1)
+
+If you wany to check our Daily station meeting record， click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/Meeting%20Record)
 
 ### The second sprint
 
@@ -303,6 +306,10 @@ We solved the problem raised last time, that is, ID de duplication. We filter th
 
 All the team members attend the beginning meeting. In this sprint, we still hold daily standing meetings through wechat. Because the workload of this sprint is very heavy, we need to report and summarize our work every day. In the spring review meeting, we still evaluated and tested the functions developed in this sprint, invited users to experience and obtained user feedback. This user experience test was very helpful to us and found problems that we didn't find in the sprint review. Because the development team is very familiar with the website, but users do not, we need to set up function reminder notes to remind users of the functions of each component. And the most important thing is that according to user feedback, our web page can't be reset after each search (unless the web page is refreshed). We will analyze and solve this problem in the next sprint.
 
+If you want view the record of the second sprint review meeting and the user feedback after the second sprint. You can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint2)
+
+If you wany to check our Daily station meeting record， click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/Meeting%20Record)
+
 ### The third sprint
 
 we begin our third sprint on August 10th and this sprint lasts almost five days.
@@ -350,6 +357,10 @@ Notes: we also solved the problem of page reset proposed in the last sprint. We 
 #### Sprint meeting log
 
 All the team members attend the spring beginning meeting. In this sprint, we organized the daily station meeting through wechat as usual. In the final sprint review meeting, we not only evaluated all the development objectives of this sprint, but also evaluated the testing of the overall project.
+
+If you want view the record of the third sprint review meeting and the user feedback after the third sprint. You can click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/sprint/sprint3)
+
+If you wany to check our Daily station meeting record， click [here](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/Meeting%20Record)
 
 ## Highlights and Critical Points
 
