@@ -404,7 +404,7 @@ We started with an analysis of the main pet buying routes in the UK and China. S
   * The other main part of the page is a list of pet's showing cards for various topics.
   * At the bottom are tools for pet ownership and some branded navigation boards.
   * The overall page is left blank on both sides in about a third of the visual area, giving the whole page a fresher look.
- 
+
 **[freeads](https://www.freeads.co.uk)**     
 
 Founded in 2010, freeads is a UK classifieds and community website designed to connect buyers and sellers of second-hand furniture, household goods, gardening supplies, pets, cars, jobs and property. This site is used in over 50 UK cities.
@@ -567,6 +567,28 @@ Based on the feedback we have listed the current areas of improvement for the we
 * Optimize the fuzzy search feature.
 * Optimise the tagging function to make it easier for sellers to add more additional information that is easy to find when tagging pets.
 * Add buttons to some sub-pages to return to the main page.
+
+
+
+### Each evaluation after sprint
+
+we also have sprint review meeting after each sprint. And will try to get user feedback through user interview in order to improve our product in some way. 
+
+a. The first sprint
+
+ After the first sprint, we have finished some basic features on our website. And we hold the sprint review meeting to evaluate the process and result of our first outcomes. All the members of our team have marked our features. Because our features developed in this sprint are relatively basic. So all of our team members think our functions are qualified. In addition, about the user interview. Add pets, delete pets and add labels to pets. Our design and development were successful. Moreover, we will give users relative prompts after the operation is completed. If you want to see the details of the user feedback after the first sprint, you can click here(加链接)
+
+
+
+b. The second sprint
+
+As usual, after the second sprint. We held a review meeting according to the rules of agile development to discuss and analyze our achievements in the second phase. And the team members will score our results. All team members believe that our function is mature. And the most important thing is that we have distinguished the permissions of administrators and users in this development. Although the login registration function needs to be improved, we are successful in terms of distinguishing permissions. As for user feedback, we have to mention that this user feedback has helped us a lot. Because many users find that when using the search function, we can't turn back the page after displaying the search results. Therefore, according to user feedback, we have added a reset function, so that as long as we click the reset page after each search function, we will return to the main interface. If you want to review the user feedback after the first sprint, you can click here(加链接)
+
+
+
+c. The third sprint
+
+After the third sprint, we also had a review meeting and user interviews. Because in the continuous iteration of our UI, users have gradually accepted our website and feel that our website is very convenient to browse, and the red and white themes can bring up everyone's love for pets. If you want to review the user feedback after the third meeting, you can click here.(加链接)
 
 ### Scoring of pet showing card design
 
