@@ -330,19 +330,19 @@ As a user(the user is the owner of this website), I want the add or delete the p
 
 When we designed and completed this function, we had made small changes to the user interface. Users can add new labels to pets through the "plus" sign under each pet. 
 
-![image-20210812162401659](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812162401659.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature2-1.png)
 
 When type the "sign" button, there will be a popup for us to confirm and input the tag which the users want to add. Then type "yes", the new tag will be added to a certain pet.
 
 The code implementation is shown. We use axios.put('/pet') to send a request. After done, the tag appears.
 
-![image-20210812162735993](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812162735993.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature2-2.png)
 
 
 
 The flowchart is shown:
 
-![image-20210812174235971](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210812174235971.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/feature2-3.png)
 
 *do we implement it well?*
 
