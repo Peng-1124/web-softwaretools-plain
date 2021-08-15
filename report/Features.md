@@ -4,7 +4,19 @@
   - [User questionnaires](#User-questionnaires)
   - [User interview](#User-interview)
   - [Development](#Development)
-- [feature 1: add pets feature/delete pets feature](#feature-1-add-pets-featuredelete-pets-feature)
+- [Feature 1: add pets feature/delete pets feature](#feature-1-add-pets-featuredelete-pets-feature)
+- [Feature 2: add tags to a pet](#feature-2-add-tags-to-a-pet)
+- [Feature 3: Filter the pets by tag](#feature-3-filter-the-pets-by-tag)
+- [Feature 4: search pets by ID](#feature-4-search-pets-by-id)
+- [Feature 5: search pets by name](#feature-5-search-pets-by-name)
+- [Feature 6: Fuzzy search](#feature-6-fuzzy-search)
+- [Feature 7: Sort pets by ID](#feature-7-sort-pets-by-id)
+- [Feature 8: Login/registration/Permission classification](#feature-8-loginregistrationpermission-classification)
+- [Feature 9: Reset/Data De duplication](#feature-9-resetdata-de-duplication)
+- [Testing](#testing)
+  - [API testing](#API-testing) 
+  - [Unit test](#Unit-test)
+   
    
 
 
@@ -865,7 +877,7 @@ Get the normal response from the server
 
 After testing, this API is normal.
 
-## f. delete pets information test
+### f. delete pets information test
 
 [DELETE] /pet/{petId}
 
@@ -899,7 +911,7 @@ The server response code is 200, indicating that the creation is successful.
 {  "code": 200,  "type": "unknown",  "message": "9223372000000214797"}
 ```
 
-## h. registration test
+### h. registration test
 
 [GET] `/user/login?username={username}&password={password}`
 
