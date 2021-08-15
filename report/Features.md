@@ -288,10 +288,10 @@ To sum up, this is why we chose the above framework development.
 
 ## Justification
 Data link:
-Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
-Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
-Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
-
+a.Details of [user interview](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+b.Details of [The first user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/first%20user%20questionnaires%20and%20analysis.md)
+c.Details of [The second user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Questionnaire%20record/second%20user%20questionnaire%20and%20analysis.md)
+d.Details of [The similar/competitive product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
 *when do we decide to do*?
 
 We decided to finish this feature in our first sprint. In addition, when we first got the teacher's framework, the function of adding pets did not work properly. So we intend to modify it ourselves and make it more perfect. Similarly, we also decided to complete the deletion of features together. After our analysis, their implementation is very similar. All send requests and perform a series of operations on existing pets through the API.
