@@ -1,9 +1,10 @@
 # content
-- [Possible Features](#Possible Features) 
+- [Possible Features](#Possible-Features) 
   - [API analysis](#API-analysis) 
   - [User questionnaires](#User-questionnaires)
   - [User interview](#User-interview)
   - [Development](#Development)
+- [Feature 1: add pets feature/delete pets feature](#Feature 1: add pets feature/delete pets feature)
    
 
 
