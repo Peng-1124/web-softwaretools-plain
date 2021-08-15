@@ -135,9 +135,9 @@ Ease of use is the core issue of our feature design. This is probably the most i
 
 ## References of Background
 
-[1] https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=CXZK202009022&v=fgJvOQGaDGBk5iS6T0rrSNGJVQyasQdnjOGHC1f3eMjxihrXnOKN21rmQF%25mmd2Bv2ZFu
-[2]
-https://www.straightnorth.com/insights/5-ways-evaluate-quality-your-website-design/
-[3] 
-https://blog.hubspot.com/blog/tabid/6307/bid/14953/What-Do-76-of-Consumers-Want-From-Your-Website-New-Data.aspx
+[1]https://kns.cnki.net/kcms/detail/detail.aspxdbcode=CJFD&dbname=CJFDLAST2020&filename=CXZK202009022&v=fgJvOQGaDGBk5iS6T0rrSNGJVQyasQdnjOGHC1f3eMjxihrXnOKN21rmQF%25mmd2Bv2ZFu
+
+[2]https://www.straightnorth.com/insights/5-ways-evaluate-quality-your-website-design/
+
+[3]https://blog.hubspot.com/blog/tabid/6307/bid/14953/What-Do-76-of-Consumers-Want-From-Your-Website-New-Data.aspx
 
