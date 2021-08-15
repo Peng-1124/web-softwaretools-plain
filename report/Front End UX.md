@@ -11,7 +11,7 @@
 - [Reasoned list of design choices](#Reasoned-list-of-design-choices)
   - [Design process](#Design-process)
   - [Philosophy and principles of our design](#Philosophy-and-principles-of-our-design)
-  - [Methodology of the survey](#Methodology of the survey)
+  - [Methodology of the survey](#Methodology-of-the-survey)
   - [Logo, slogan and name design](#Logo,-slogan-and-name-design)
   - [Analysis of existing products](#Analysis-of-existing-products)
   - [List of features and product structure diagram](#List-of-features-and-product-structure-diagram)
