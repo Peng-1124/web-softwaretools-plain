@@ -608,9 +608,9 @@ Test part. Before development, our group made it clear that what our group shoul
 
 [POST] `/pet/{petId}/uploadImage`
 
-![image-20210813125312215](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813125312215.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-1.png)
 
-![image-20210813125445100](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813125445100.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-2.png)
 
 Request the test to upload cat01.jpg to the server
 
@@ -674,7 +674,7 @@ This is also the reason why we did not realize the function of uploading photos.
 
 ### c. The testing of viewing all available pet information
 
-![image-20210813132538665](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813132538665.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-3.png)
 
 Request test
 
@@ -933,11 +933,11 @@ describe('Login page test', () => {    it('Login api test', async (done) => {   
 
 login/registration test & permission division
 
-![image-20210813190413442](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813190413442.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-4.png)
 
 The result. if the user account is "admin". Our show flag will be true, the users will see the "add" button, "delete button", "tag add button".
 
-![featurelogin演示](D:\Figure\featurelogin演示.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-5.gif)
 
 After manually test and automated test. This feature runs well.
 
@@ -949,7 +949,7 @@ This function can only be tested manually. Every time we get the PET data, the t
 
 The result is here
 
-![image-20210813192846903](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813192846903.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-6.png)
 
 As we can see, no two pets have the same ID.
 
@@ -975,7 +975,7 @@ Of course, we also manually tested the delete pet function. This function perfor
 
 For this function, we chose manual test. This function performs well in manual testing. And the added tag information was sent to the pet store in time. Because the process and steps of realizing this function are relatively simple. Therefore, after the discussion of the team members, there was no automatic test.
 
-![addtagtest](D:\Figure\addtagtest.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-7.gif)
 
 
 
@@ -989,11 +989,11 @@ it('Filter name & id Test', (done) => {        let petInfoList = []        axios
 
 However, this test case can not test our fuzzy search function, so we manually test the fuzzy search function, the last small branch of the search function.
 
-![searchfuzzy](D:\Figure\searchfuzzy.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-8.gif)
 
 After the fuzzy search test, because we said before, we set up a selection panel for us to choose. We need to manually test whether this function can help us successfully select three search modes. This is also an integration test of the three search modes. The result of the test is that the search function in the three modes can operate normally.
 
-![searchinter](D:\Figure\searchinter.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-9.gif)
 
 
 
@@ -1007,7 +1007,7 @@ it('Filter tag test',  (done) => {        let petInfoList = []        axios.get(
 
 Our function passed the test case after development. And the function is very successful. Then we conducted a manual test, and the function performed very well in the manual test.
 
-![filtertag](D:\Figure\filtertag.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-10.gif)
 
 
 
@@ -1017,19 +1017,19 @@ At the beginning, when we considered this function, we once considered writing t
 
 This function may not be obvious in the test. Here we prompt that the result of successful test is that after we click the button, all pets will be arranged in ascending or descending order of pet ID.
 
-![orderaccordingID](D:\Figure\orderaccordingID.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-11.gif)
 
 ### automated test show
 
 There are some warning. However, our project passed all the test cases. 
 
-![testshow](D:\Figure\testshow.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-12.gif)
 
 After all the unit tests have been passed, we also do the integration test aiming to test the cohesion between functions memory cohesion between pages.
 
 In the integration test of the program, we mainly tested the cooperation between various functions, but we found that. Our functions are relatively independent and will not affect each other. We need to mention one point. It is the test of the reset button. This function plays an important role in our search function. So we manually tested and tested the usability of this button many times. When the network is comfortable, there are no technical problems with our reset button. In addition, we also tested the permissions of administrators and users during integration testing. The following figure illustrates the use of permissions between users and administrators.
 
-![image-20210813232956536](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210813232956536.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/t-13.png)
 
 The administrator has all the rights that the user has, and there are three other rights: adding pets, deleting pets, and adding tags to pets. We have done this before.
 
