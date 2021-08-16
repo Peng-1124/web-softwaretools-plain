@@ -17,7 +17,7 @@ run
 test
  `npm run test`
  
-If you do not install node and npm before, you read [here](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/0_gettingstarted.md) to intall
+If you do not install node and npm before, you read [here](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/0_gettingstarted.md) to install
 
 
 This gif shows the process to run the project
