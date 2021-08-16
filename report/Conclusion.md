@@ -70,6 +70,10 @@ g. The team members strictly abide by the arrangement of the leader and attend t
 
 Our group gets user feedback mainly through user interviews. Because we think this is more targeted, which can make us better understand the problems of the product and make corresponding modifications. In this regard, I think the only deficiency may be that the time is too tight, so we can't collect more user feedback. This is also one of the regrets of our group.
 
+### Imperfections
+
+One thing we have to mention here is that we are not perfect in the user login and registration function. Because our purpose is to distinguish the permissions of users and administrators, we don't do more work in password authentication. As long as the user name detected by our system is admin, we will log in to the administrator system. As users, our system can log in directly without detection. I believe that in the near future, when we have a more stable API, we will complete this deficiency.
+
 # Reflection
 
 ## Reflect on the working practices and team work
