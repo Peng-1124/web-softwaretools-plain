@@ -349,6 +349,46 @@ Deciding together on the product experience for users through a team meeting fir
 
 Once the product prototype were basically determined, wireframe prototypes were created using prototyping software, and then discussed within the group and set a new range of questionnaires and analyse the data. Finally, the newly collected data was used to iterate on the product, including the design of the interface, the product copy, and the rationalisation of the layout.
 
+
+
+Here we will introduce each change of our front-end in more detail. Our presentation starts with each change in each component of the page.
+
+a. Background replacement of front-end detail design
+
+In the beginning, we originally decided to set a cartoon background for our web page, so as to attract more people's attention. However, through the analysis of the interface of the same website, it is found that whether it is a website selling pets or a website selling other goods, they all love the solid color background. Therefore, in the background setting, in addition to our group discussion, we decided to use solid color background. Through competitive product analysis, we also intend to use solid color background. This may reduce users' aesthetic fatigue to a certain extent.
+
+
+
+b. The navigation bar changes.
+
+Our navigation bar has changed three times. At first, as mentioned above, we plan to use the side navigation bar. Because many management systems use the side navigation bar. However, based on user feedback, we find that users prefer meaningful icon buttons rather than text navigation bars. So the first change of our navigation bar is from the side navigation bar to the web page. The main reason for this change is that we have analyzed the current mainstream e-commerce websites, and almost no navigation bar is set on both sides of the page. So we set our navigation bar right above the page.
+
+![image-20210815234209347](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210815234209347.png)
+
+The second change of the navigation bar is due to the development of the second sprint, because we added new functions in the second sprint. So this time we want to do more on the navigation bar. In order to add more interaction areas, we decided to program the double-layer navigation bar from the single-layer navigation bar. In this way, all functions can be accommodated. Moreover, there is another major change in the navigation bar this time, that is, we have made all the functions into meaningful buttons. Buttons include search, add, sort (ascending and descending), and filter tag.
+
+![image-20210815235016175](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210815235016175.png)
+
+This time our navigation bar also has one of the most important features. We added a selection panel, the one marked by the red box. Because in the second sprint, we need to implement three search functions according to user needs. We can't implement three different searches in one search bar. And the design of the three-tier navigation bar has been rejected by us. As we all know, now the mainstream website is also a two-tier navigation bar at most. Just because a search function adds a three-tier navigation bar is unreasonable. Therefore, we have designed a search selection mode. Users can choose the search method they want according to the prompt of the selection panel.
+
+
+
+c. The adding page/ login page
+
+We haven't changed much to add a pet page. All our designs are designed to achieve our functions. So in the interface of adding pets, we only need to enter the information we need. Our login registration interface is also designed to collect user data. There was no significant change before and after.
+
+
+
+d. Pets card change
+
+![image-20210816012542502](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210816012542502.png)
+
+We mentioned this change before, but I still want to talk about it in detail here. The change of page layout is based on the score of the group. We also have a very subtle design, which is derived from our analysis of similar types of websites. Every time the user hovers over the pet card, the pet card will have a zoom change. Such a design will make our website more attractive. Because when the mouse hovers over the card, the zoom of the picture will be attractive.
+
+![chang](D:\Figure\chang.gif)
+
+
+
 ### Philosophy and principles of our design
 
 The following are our team's philosophy and principles in product design. [1] Our team's approach to the entire product design process is based on the following principles.
