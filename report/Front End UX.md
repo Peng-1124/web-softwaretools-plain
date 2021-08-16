@@ -666,6 +666,154 @@ next section->[Process](https://github.com/Peng-1124/web-softwaretools-plain/blo
 ### 3rd questionnaire
 3rd questionnaire
 
+This questionnaire was used to guide subsequent iterations of the project after we had completed the previous workflows, with the main focus being on the UI of the website. This project is not just a school project, but a practical tool that can be developed further, so the team planned to use the questionnaire to gather feedback on the current version of the web site for each module.
+
+The majority of respondents were pet lovers. The survey collected 29 results and the overall feedback was satisfactory. The following is a detailed analysis.
+
+1. How do you think the home page could be improved?
+
+| No.  | Answer                        |
+| ---- | ----------------------------- |
+| 1    | It’s perfect                  |
+| 2    | It's a neat page              |
+| 3    | The text part can be art part |
+| 4    | Perfect                       |
+| 5    | good                          |
+| 6    | perfect                       |
+| 7    | perfect                       |
+| 8    | nothing to improve            |
+| 9    | Perfect                       |
+| 10   | good                          |
+| 11   | good                          |
+| 12   | perfect                       |
+| 13   | pictures are the same         |
+| 14   | good                          |
+| 15   | good                          |
+| 16   | perfect                       |
+| 17   | perfect                       |
+| 18   | nothing to improve            |
+| 19   | pics are the same             |
+| 20   | good                          |
+| 21   | good                          |
+| 22   | good                          |
+| 23   | perfect                       |
+| 24   | great                         |
+| 25   | nothing                       |
+| 26   | it's good                     |
+| 27   | good                          |
+| 28   | good                          |
+| 29   | It’s almost perfect           |
+
+Among the answers, the overall result is still satisfactory. About 20 of the answers said that the home page was perfect or good. Some users suggested the simplicity of the page, all of which was very good feedback. Although, there was one user who said that the pictures were all duplicates and this was because the site was not live and the photos of the pets needed to be uploaded by the seller. This is a problem that can be fixed.
+
+2. How do you think the add pets page could be improved?
+
+| No.  | Answer                                        |
+| ---- | --------------------------------------------- |
+| 1    | It’s perfect                                  |
+| 2    | The layout is reasonable                      |
+| 3    | very good for tour website                    |
+| 4    | That's good                                   |
+| 5    | good                                          |
+| 6    | perfect                                       |
+| 7    | perfect                                       |
+| 8    | the place of button                           |
+| 9    | Perfect                                       |
+| 10   | button                                        |
+| 11   | good                                          |
+| 12   | Back button                                   |
+| 13   | button                                        |
+| 14   | good                                          |
+| 15   | good                                          |
+| 16   | perfect                                       |
+| 17   | perfect                                       |
+| 18   | nothing to improve                            |
+| 19   | pics are the same                             |
+| 20   | good                                          |
+| 21   | good                                          |
+| 22   | the place of button should be changed         |
+| 23   | perfect                                       |
+| 24   | great                                         |
+| 25   | nothing                                       |
+| 26   | the back button is placed at a wrong position |
+| 27   | good                                          |
+| 28   | good                                          |
+| 29   | Simple page, good！                           |
+
+Overall users are satisfied with the design of the UI. However, about ten users raised the issue of the position of the back button, which is somewhat asymmetrical to the OK button on this page. However, more than half of the users felt that the design of the page was very good.
+
+3. How do you think the login page could be improved?
+
+| User | Answer                           |
+| ---- | -------------------------------- |
+| 1    | It's adaptable enough            |
+| 2    | It's very similar to other sites |
+| 3    | excellent                        |
+| 4    | good                             |
+| 5    | good                             |
+| 6    | perfect                          |
+| 7    | perfect                          |
+| 8    | nothing to imporve               |
+| 9    | good                             |
+| 10   | good                             |
+| 11   | good                             |
+| 12   | good                             |
+| 13   | good                             |
+| 14   | good                             |
+| 15   | good                             |
+| 16   | perfect                          |
+| 17   | perfect                          |
+| 18   | nothing to improve               |
+| 19   | good                             |
+| 20   | good                             |
+| 21   | good                             |
+| 22   | perfect                          |
+| 23   | good                             |
+| 24   | great                            |
+| 25   | nothing                          |
+| 26   | good                             |
+| 27   | perfect                          |
+| 28   | perfect                          |
+| 29   | Like Apple                       |
+
+The feedback on the design of this page is very good. Almost all users have said that there are no adjustments needed, which means that it is reasonably well designed. We do not need to make any subsequent adjustments.
+
+4. How do you think the registration page could be improved?
+
+| User | Answer                         |
+| ---- | ------------------------------ |
+| 1    | It’s nice                      |
+| 2    | Nice                           |
+| 3    | all in consideration, Cool job |
+| 4    | good                           |
+| 5    | good                           |
+| 6    | perfect                        |
+| 7    | perfect                        |
+| 8    | nothing to imporve             |
+| 9    | good                           |
+| 10   | good                           |
+| 11   | good                           |
+| 12   | good                           |
+| 13   | good                           |
+| 14   | good                           |
+| 15   | good                           |
+| 16   | perfect                        |
+| 17   | perfect                        |
+| 18   | nothing to improve             |
+| 19   | good                           |
+| 20   | good                           |
+| 21   | good                           |
+| 22   | perfect                        |
+| 23   | perfect                        |
+| 24   | great                          |
+| 25   | nothing                        |
+| 26   | good                           |
+| 27   | perfect                        |
+| 28   | perfect                        |
+| 29   | Enough                         |
+
+Out of 29 responses, almost all users gave positive answers. Their responses show that the UI of this page is also perfect.
+
 # Reference
 [1]https://uxdesign.cc/focus-on-the-experience-the-interface-might-follow-ceb556ec2a4a
 
