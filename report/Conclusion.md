@@ -34,9 +34,11 @@ We believe that our team has been very successful in designing and writing pet s
 
 About getting the requirement of users, we have done a lot of work on it. I think our team has done a good job in this regard. We have obtained the user needs through three aspects of analysis. And we have records of almost every interview. The details are here.
 
-a. user questionnaire
+a. [user questionnaire](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/Questionnaire%20record)
 
-b. user interview
+b. [user interview details](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/User%20interview%20record)
+
+c. [similar product analysis](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/similar%20analysis/similar%20product%20analysis.md)
 
 ### Feature design and development
 
