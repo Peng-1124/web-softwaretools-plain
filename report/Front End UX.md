@@ -659,9 +659,6 @@ After the third sprint, we also had a review meeting and user interviews. Becaus
   | Search a tag     | 1     |
   | Input tag here   | 2     |
 
-previous section->[Feature](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Features.md)
-
-next section->[Process](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Process.md)
 
 ### 3rd questionnaire
 
@@ -816,6 +813,10 @@ The feedback on the design of this page is very good. Almost all users have said
 | 29   | Enough                         |
 
 Out of 29 responses, almost all users gave positive answers. Their responses show that the UI of this page is also perfect.
+
+previous section->[Feature](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Features.md)
+
+next section->[Process](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Process.md)
 
 # Reference
 [1]https://uxdesign.cc/focus-on-the-experience-the-interface-might-follow-ceb556ec2a4a
