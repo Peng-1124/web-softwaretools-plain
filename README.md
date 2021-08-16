@@ -12,6 +12,10 @@ Our final report
 # Final Display development
 Our final project:[Final code](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/Code/FinalCode)
 
+sign in as admin. user name: admin and no password.
+                  
+sign in as visitor. you can just click sign in without user name and password.
+
 # Introduction of files in main branch
 
 [Code](https://github.com/Peng-1124/web-softwaretools-plain/tree/main/Code):Code developed by the team for each iteration
