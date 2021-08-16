@@ -96,6 +96,8 @@ c. Realize the order system, which can really realize the transaction and purcha
 
 d. Implementation evaluation system
 
+e. make the login/registration perfet
+
 
 
 ## Person summary
