@@ -113,7 +113,8 @@ The overall picture description is shown below.
 The information exchange is as below. This figure shows how the information exchange in our project.
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/informationExchange.png)
 
-
+This figure below show the sequence the userss follow when they use our website.
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/finalchart.png)
 # Full description of all features
 
 Ease of use is the core issue of our feature design. This is probably the most important thing that ordinary users think. About 76% of users believe that ease of use is the most important feature of a website.[3] In order to achieve this goal and complete our project within a limited time, we selectively implemented the following features, which are relatively important and could be technical challenges. 
