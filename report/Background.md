@@ -135,6 +135,18 @@ Ease of use is the core issue of our feature design. This is probably the most i
 5.	Unit Test
    We have partially implemented **unit tests** in our code. Although this feature has nothing to do with the direct users of the website, it is still an important part of building a developer-friendly website. 
    
+Due to the limited time, we are unable to complete all the functions we wish to add. We believe that the following functions are also very important. Although they do not exist in the current version, we still hope to add the following features in the future. 
+
+6.  User Review
+   A simple **user review system**, which is partially integrated with the user system, is important to let potential users know more about the product they want to buy and help them know possible advantages and disadvantages. Users will be able to use this system to read and post comments (if they have bought some products). User reviews given by other users, especially those that contain a few negative contents, help users have confidence in the products they are about to buy. This helps increase user confidence in our website.
+
+7.  Online Support
+   In some cases, just reading reviews posted by other users may not answer all of users' questions. Rather than sending an email and waiting for a while, an **online chat system** for online customer service may be a better choice. If they wait too long, maybe their enthusiasm for shopping will disappear, or they may turn to other businesses. We should avoid this situation.
+
+8.  Recommended products
+   Rather than waiting for users to choose the products they want, recommending products that may be of interest to users may be a more proactive idea. For this, we need a **recommendation system** that uses legitimate data and recommendation algorithms to recommend those you-may-like-this products to users. This includes two parts of features, collecting user data and analyzing it. The website can collect user data through appropriate means[4], analyze it through machine learning technology. This is good for selling more products. 
+
+   
 next section->[Feature](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Features.md)
 
 ## References of Background
@@ -144,5 +156,7 @@ next section->[Feature](https://github.com/Peng-1124/web-softwaretools-plain/blo
 [2]https://www.straightnorth.com/insights/5-ways-evaluate-quality-your-website-design/
 
 [3]https://blog.hubspot.com/blog/tabid/6307/bid/14953/What-Do-76-of-Consumers-Want-From-Your-Website-New-Data.aspx
+
+[4]https://www.tributemedia.com/blog/learn-how-visitors-navigate-your-website
 
                                                                                                                                         
