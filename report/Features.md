@@ -16,6 +16,7 @@
 - [Testing](#testing)
   - [API testing](#API-testing) 
   - [Unit test](#Unit-test)
+  - [integration testing](#integration-testing)
   
    
 
@@ -1358,31 +1359,31 @@ The administrator has all the rights that the user has, and there are three othe
 
 Integration test is to check the cooperation between functions after all functional modules run successfully. Therefore, the main scheme of our integration test is to divide it into subsystem test first. We divide all interfaces into two systems, one is the administrator system and the other is the user system. All our unit tests have been completed before, so what we want to detect here is the completion of the cooperation between functions. First, we log in to the system with the administrator account, and add pets, delete pets and add tag to a pet.
 
-![image-20210816172702509](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210816172702509.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/n1.png)
 
 After these four functional tests, the test was very successful. After our manual test, the four functions cooperate well. Because this is an independent function of the administrator system, users do not have the right to perform these functions. During the opening process, we will divide our overall system into several subsystems for testing. The administrator authority test is as follows.
 
-![testgif1](C:\Users\Administrator\Desktop\Figure\testgif1.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/testgif1.gif)
 
 We also saw that when adding pets. API uploads information with a delay, so we often refresh the interface to retrieve existing pets. After refreshing several times, it is proved that our function can be realized. The other is to add pet tags and delete functions. The implementation of these two functions is successful, including the upload and acquisition of information.
 
 Then test the above three functions. We decided to continue testing the functionality at the integrated navigation bar. The functions of this integration test include search, ID search, name search and fuzzy search. There are also tag filtering and sorting by ID.
 
-![image-20210816172625107](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210816172625107.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/n2.png)
 
-![testgif2](C:\Users\Administrator\Desktop\Figure\testgif2.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/testgif2.gif)
 
 Because all the above functions have passed the unit test, the above combined functions have also successfully passed our test. What we need to do next is to execute the logout function, and then test the functions that visitors can perform after logging in. The main reason for our login system is to distinguish permissions. The figure below show the chart when login as a visitor(user).
 
-![image-20210816173233888](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210816173233888.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/n3.png)
 
 As we mentioned earlier, administrators and tourists have different permissions. Therefore, on the client side, we have integrated all the functions of the navigation bar. Including search, sorting and filtering. The manual test proves that our integration test is successful on the user side.
 
-![testgif3](C:\Users\Administrator\Desktop\Figure\testgif3.gif)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/testgif3.gif)
 
 Our test adopts the method of unit test and integration test. The general idea of integration test is to log in to the administrator side first and integrate the function test of the administrator side. Then log out to test the functions of the client. Our last step is to test the link between the user side and the administrator side. We only need to execute the login / logout function to connect the administrator and tourists. So to sum up, all our tests have been completed. The connection and switching between the two terminals have also passed our integration test. We divide the whole system into several subsystems, and then test the integration step by step.
 
-![image-20210816175734689](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210816175734689.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/n4.png)
 
 Our testing process is end! Thanks for viewing!
 
