@@ -362,7 +362,7 @@ In the beginning, we originally decided to set a cartoon background for our web 
 
 b. The navigation bar changes.
 
-Our navigation bar has changed three times. At first, as mentioned above, we plan to use the side navigation bar. Because many management systems use the side navigation bar. However, based on user feedback, we find that users prefer meaningful icon buttons rather than text navigation bars. So the first change of our navigation bar is from the side navigation bar to the web page. The main reason for this change is that we have analyzed the current mainstream e-commerce websites, and almost no navigation bar is set on both sides of the page. So we set our navigation bar right above the page.
+Our navigation bar has changed three times. At first, as mentioned above, we plan to use the side navigation bar. Because many management systems use the side navigation bar. However, based on user feedback, we find that users prefer meaningful icon buttons rather than text navigation bars. So the first change of our navigation bar is from the side navigation bar to the web page. The main reason for this change is that we have analyzed the current mainstream e-commerce websites, and only a few pages have navigation bars set to the side. So we set our navigation bar right above the page.
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/1111.png)
 
