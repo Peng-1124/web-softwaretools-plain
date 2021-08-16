@@ -664,7 +664,10 @@ previous section->[Feature](https://github.com/Peng-1124/web-softwaretools-plain
 next section->[Process](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/report/Process.md)
 
 ### 3rd questionnaire
+
 Click **[here](https://www.wjx.cn/vj/OmhnuUM.aspx)** to view the 3rd questionnaire
+
+![3s](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/uiux/3s.png)
 
 This questionnaire was used to guide subsequent iterations of the project after we had completed the previous workflows, with the main focus being on the UI of the website. This project is not just a school project, but a practical tool that can be developed further, so the team planned to use the questionnaire to gather feedback on the current version of the web site for each module.
 
