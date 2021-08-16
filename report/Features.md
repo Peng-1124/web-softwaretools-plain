@@ -1371,7 +1371,7 @@ Then test the above three functions. We decided to continue testing the function
 
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/n2.png)
 
-![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/testgif2.gif)
+Sorry for size of gif for this step is lager than 25MB, so we can not make gif here.
 
 Because all the above functions have passed the unit test, the above combined functions have also successfully passed our test. What we need to do next is to execute the logout function, and then test the functions that visitors can perform after logging in. The main reason for our login system is to distinguish permissions. The figure below show the chart when login as a visitor(user).
 
@@ -1379,7 +1379,7 @@ Because all the above functions have passed the unit test, the above combined fu
 
 As we mentioned earlier, administrators and tourists have different permissions. Therefore, on the client side, we have integrated all the functions of the navigation bar. Including search, sorting and filtering. The manual test proves that our integration test is successful on the user side.
 
-![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/feature/testgif3.gif)
+Sorry for size of gif for this step is lager than 25MB, so we can not make gif here.
 
 Our test adopts the method of unit test and integration test. The general idea of integration test is to log in to the administrator side first and integrate the function test of the administrator side. Then log out to test the functions of the client. Our last step is to test the link between the user side and the administrator side. We only need to execute the login / logout function to connect the administrator and tourists. So to sum up, all our tests have been completed. The connection and switching between the two terminals have also passed our integration test. We divide the whole system into several subsystems, and then test the integration step by step.
 
