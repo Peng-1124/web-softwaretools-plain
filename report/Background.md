@@ -104,7 +104,7 @@ In the page for adding pets, the administrator can add pictures from the file, e
 ![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/Pet-Adding-Module.png)
 
 The overall picture description is shown below.
-![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/Overall-Process.png)
+![image](https://github.com/Peng-1124/web-softwaretools-plain/blob/main/Figures/background/overallprocess.png)
 
 
 
